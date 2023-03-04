@@ -707,7 +707,7 @@ Computer graphics books and web resources collection.
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Resources/Game Development Tools/Image/Image1.jpg">|Game Development Tools ||
+|<Image src="Resources/Game Development Tools/Image/Image1.jpg">|Game Development Tools ||
 
 Div, Grad, Curl, and All That
 
