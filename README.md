@@ -286,11 +286,11 @@ Computer graphics books and web resources collection.
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Graphics Gems(1)/Image/Image1.jpg">|Graphics Gems|[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-| <Image src="Graphics Gems(2)/Image/Image1.jpg">|Graphics Gems II|[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-| <Image src="Graphics Gems(3)/Image/Image1.jpg">|Graphics Gems III |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-| <Image src="Graphics Gems(4)/Image/Image1.jpg">|Graphics Gems IV |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-| <Image src="Graphics Gems(5)/Image/Image1.jpg">|Graphics Gems V |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/Graphics Gems(1)/Image/Image1.jpg">|Graphics Gems|[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/Graphics Gems(2)/Image/Image1.jpg">|Graphics Gems II|[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/Graphics Gems(3)/Image/Image1.jpg">|Graphics Gems III |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/Graphics Gems(4)/Image/Image1.jpg">|Graphics Gems IV |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/Graphics Gems(5)/Image/Image1.jpg">|Graphics Gems V |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
 
 ### Ray Tracing in One Week
 ***
