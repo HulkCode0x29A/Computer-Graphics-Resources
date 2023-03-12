@@ -11,6 +11,7 @@ Computer graphics books and web resources collection.
 - Physically Based Rendering From Theory To Implementation
 - Real-Time Rendering
 - GPU Gems
+- Unity Shader入门精要
 - ShaderX
 - GPU Zen 
 - GPU Pro 360
@@ -21,7 +22,7 @@ Computer graphics books and web resources collection.
 - Game Engine Gems
 - Game Engine Architecture
 - Graphics Gems
-- Ray Tracing in One Week
+- Ray Tracing in One Weekend
 - Game Programming Gems
 - The HDRI Handbook
 - High Dynamic Range Imaging
@@ -156,13 +157,19 @@ Computer graphics books and web resources collection.
 - Geometry for Computer Graphics
 - Introduction to Computing with Geometry
 - Curves and Surfaces for Computer Graphics
+- Production Volume Rendering
+
+## Learning route recommendation(学习路线推荐)
+***
+
+<div align=center><Image src="File/CG.png"></div>
   
 ### Computer Graphics with OpenGL
 ***
 |  picture   | title  |  related resources |
 |  ----  | ----  | ----|
 | <Image src="Resources/Computer Graphics with Open GL(4)/Image/Image1.jpg">  | Computer Graphics with Open GL 4/e |  
-| <Image src="Resources/Computer Graphics with Open GL(4)/Image/Image2.jpg">  | 计算机图形学 |  
+| <Image src="Resources/Computer Graphics with Open GL(4)/Image/Image2.jpg">  | 计算机图形学<br> ISBN:9787121246142 |  
 
 ### Fundamentals of Computer Graphics
 ***
@@ -189,6 +196,13 @@ Computer graphics books and web resources collection.
 | <Image src="Resources/GPU Gems(1)/Image/Image1.jpg">   | GPU Gems | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems/contributors) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes)|
 | <Image src="Resources/GPU Gems(2)/Image/Image1.jpg">  | GPU Gems 2 | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems2/copyright) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes)|
 | <Image src="Resources/GPU Gems(3)/Image/Image1.jpg"> | GPU Gems 3 | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems3/contributors) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes) |
+
+
+### Unity Shader入门精要
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+| <Image src="Resources/UnityShader入门精要/Image/Image1.jpg">   | Unity Shader入门精要 |[源代码(source code)](https://github.com/candycat1992/Unity_Shaders_Book)|
 
 ### ShaderX
 ***
@@ -292,11 +306,11 @@ Computer graphics books and web resources collection.
 | <Image src="Resources/Graphics Gems(4)/Image/Image1.jpg">|Graphics Gems IV |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
 | <Image src="Resources/Graphics Gems(5)/Image/Image1.jpg">|Graphics Gems V |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
 
-### Ray Tracing in One Week
+### Ray Tracing in One Weekend
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/Ray Tracing in One Week(1)/Image/Image1.png">|Ray Tracing in One Week |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingInOneWeekend.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/01/ray-tracing-in-one-weekend.html)<br>[源代码(source code)](https://github.com/RayTracing/InOneWeekend)| 
+| <Image src="Resources/Ray Tracing in One Weekend/Image/Image1.png">|Ray Tracing in One Week |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingInOneWeekend.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/01/ray-tracing-in-one-weekend.html)<br>[源代码(source code)](https://github.com/RayTracing/InOneWeekend)| 
 | <Image src="Resources/Ray Tracing the Next Week(2)/Image/Image1.png">|Ray Tracing the Next Week |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingTheNextWeek.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/01/ray-tracing-second-weekend.html)<br>[源代码(source code)](https://github.com/RayTracing/TheNextWeek)| 
 | <Image src="Resources/Ray Tracing The Rest Of Your Life(3)/Image/Image1.png">|Ray Tracing The Rest Of Your Life |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/03/ray-tracing-rest-of-your-life.html)<br>[源代码(source code)](https://github.com/RayTracing/TheRestOfYourLife)| 
 
@@ -420,6 +434,8 @@ Computer graphics books and web resources collection.
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
 |<Image src="Resources/OpenGL Shading Language/Image/Image1.jpg">|OpenGL Shading Language|
+
+
 
 ### Fluid Engine Development
 ***
@@ -1212,6 +1228,13 @@ Div, Grad, Curl, and All That
 |  ----  | ----  | ----  |
 |<Image src="Resources/Curves and Surfaces for Computer Graphics/Image/Image1.jpg">|Curves and Surfaces for Computer Graphics||
 
+
+### Production Volume Rendering
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/Production Volume Rendering/Image/Image1.jpg">|Production Volume Rendering||
+
 ## Sites and project(网站与项目)
 ***
 
@@ -1238,6 +1261,7 @@ Div, Grad, Curl, and All That
 |<Image src="Sites/Image19.png">| [网站地址(website)](https://minionsart.github.io/tutorials/) <br> unity shader,URP,教程<br>(unity shader,URP, tutorial)|
 |<Image src="Sites/Image20.png">| [网站地址(website)](https://www.youtube.com/c/TheChernoProject) <br> c++,游戏引擎,openGL教程<br>(c++, Game engine,openGL tutorial)|
 |<Image src="Sites/Image21.png">| [网站地址(website)](https://www.youtube.com/c/SebastianLague/featured) <br> 地形生成,太阳系系统,unity教程<br>(Terrain Generation, Solar System,unity tutorial)|
+|<Image src="Sites/Image22.png">| [网站地址(website)](https://github.com/QianMo/Awesome-Unity-Shader) <br> 浅墨(毛星云)的一些unity shader教程<br>(shader tutorial)|
 
 
 
