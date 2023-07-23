@@ -4,7 +4,7 @@
 
 Computer graphics books and web resources collection.
 
-## BookList(书籍列表)
+## Computer graphics(图形学)
 ***
 - Computer Graphics with OpenGL
 - Fundamentals of Computer Graphics
@@ -85,6 +85,7 @@ Computer graphics books and web resources collection.
 - Tricks of the 3D Game Programming Gurus Advanced 3D Graphics and Rasterization
 - Principles of Digital Image Synthesis 
 - Digital Image Processing
+- Signals and Systems
 - Game Development Tools
 - Div, Grad, Curl, and All That
 - Game Programming Patterns
@@ -159,420 +160,516 @@ Computer graphics books and web resources collection.
 - Curves and Surfaces for Computer Graphics
 - Production Volume Rendering
 
-## Learning route recommendation(学习路线推荐)
+### 图形学理论与原理
+
+### 图形接口
+
+### 实时渲染
+
+### 光线追踪与离线渲染
+
+### 图形学物理,几何,模拟
+
+### 图形学数学
+
+### 游戏引擎与游戏编程
+
+## Programming language(程序语言) 
+- C++Primer
+
+## Recommended graphics learning route(图形学学习路线推荐)
 ***
 
 <div align=center><Image src="File/CG.png"></div>
-  
-### Computer Graphics with OpenGL
+
+### 图形学理论与原理
+***
+
+#### Computer Graphics with OpenGL
 ***
 |  picture   | title  |  related resources |
 |  ----  | ----  | ----|
-| <Image src="Resources/Computer Graphics with Open GL(4)/Image/Image1.jpg">  | Computer Graphics with Open GL 4/e |  
-| <Image src="Resources/Computer Graphics with Open GL(4)/Image/Image2.jpg">  | 计算机图形学<br> ISBN:9787121246142 |  
+| <Image src="Resources/图形学理论与算法/Computer Graphics with Open GL(4)/Image/Image1.jpg">  | Computer Graphics with Open GL 4/e |  [unity 实现(unity implementation)](https://github.com/HulkCode0x29A/Computer-Graphics)|
+| <Image src="Resources/图形学理论与算法/Computer Graphics with Open GL(4)/Image/Image2.jpg">  | 计算机图形学<br> ISBN:9787121246142 |  [unity 实现(unity implementation)](https://github.com/HulkCode0x29A/Computer-Graphics)|
 
-### Fundamentals of Computer Graphics
+
+#### Fundamentals of Computer Graphics
 ***
 |  picture   | title  |  related resources | 
 |  ----  | ----  |----|
-| <Image src="Resources/Fundamentals of Computer Graphics(4)/Image/Image1.jpg">  | Fundamentals of    Computer Graphics,<br> Fourth Edition |  
+| <Image src="Resources/图形学理论与算法/Fundamentals of Computer Graphics(4)/Image/Image1.jpg">  | Fundamentals of    Computer Graphics,<br> Fourth Edition | 
 
-### Physically Based Rendering From Theory To Implementation
+#### Tricks of the 3D Game Programming Gurus Advanced 3D Graphics and Rasterization
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学理论与算法/Tricks of the 3D Game Programming Gurus Advanced 3D Graphics and Rasterization/Image/Image1.jpg">|Tricks of the 3D Game Programming Gurus <br>Advanced 3D Graphics and Rasterization||
+|<Image src="Resources/图形学理论与算法/Tricks of the 3D Game Programming Gurus Advanced 3D Graphics and Rasterization/Image/CNImage1.jpg">|3D游戏编程大师技巧（上下册）||
+
+#### Computer Graphics Principles and Practice
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学理论与算法/Computer Graphics Principles and Practice/Image/Image1.jpg">|Computer Graphics, 3rd Edition | [官网(official website)](http://cgpp.net/acknowledgments.xml)|
+
+#### Interactive 3D Graphics(Eric Hanines)
 ***
 |  picture   | title  |  related resources |
 |  ----  | ----  | ----|
-| <Image src="Resources/Physically Based Rendering(3)/Image/Image1.jpg">  | Physically Based Rendering, <br>Third Edition |  [免费阅读(free reading)](https://pbr-book.org/)  <br> [浅墨(毛星云)对相关渲染的总结(summary)](https://github.com/QianMo/PBR-White-Paper)|
+| <Image src="Resources/图形学理论与算法\Interactive 3D Graphics(Eric Hanines)\Image/Image1.jpg">  | Interactive 3D Graphics |  [演示(demos)](https://www.realtimerendering.com/udacity/?load=demo/unit7-view-pipeline.js)<br>[教学大纲(Syllabus)](https://www.udacity.com/wiki/cs291/syllabus)<br>[资源( resources)](https://www.udacity.com/wiki/cs291)<br>[可下载视频(downloadable videos)](https://www.udacity.com/wiki/cs291/downloads)<br>[代码(code)](https://github.com/udacity/cs291)<br>[论坛(forum)](https://discussions.udacity.com/login)|
 
-### Real-Time Rendering
-***
-|  picture   | title  | related resources |
-|  ----  | ----  | ----  |
-|  <Image src="Resources/Real-Time Rendering(4)/Image/Image1.jpg">   | Real-Time Rendering,<br> Fourth Edition | [书籍官网(official website)](http://www.realtimerendering.com/) <br> [书籍网站的 Graphics books有大量图形相关书籍](http://www.realtimerendering.com/books.html) <br> [浅墨(毛星云)对书籍相关文献的整理(literature)](https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection) |
-
-### GPU Gems
+#### Interactive Computer Graphics: A Top-Down Approach with WebGL
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/GPU Gems(1)/Image/Image1.jpg">   | GPU Gems | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems/contributors) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes)|
-| <Image src="Resources/GPU Gems(2)/Image/Image1.jpg">  | GPU Gems 2 | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems2/copyright) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes)|
-| <Image src="Resources/GPU Gems(3)/Image/Image1.jpg"> | GPU Gems 3 | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems3/contributors) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes) |
+|<Image src="Resources/图形学理论与算法/Interactive Computer Graphics A Top-Down Approach with WebGL/Image/Image1.jpg">|Interactive Computer Graphics: A Top-Down Approach with WebGL (7th Edition)||
+|<Image src="Resources/图形学理论与算法/Interactive Computer Graphics A Top-Down Approach with WebGL/Image/Image2.jpg">|交互式计算机图形学|
 
-
-### Unity Shader入门精要
+#### Computer Graphics Through OpenGL:From Theory to Experiments 
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/UnityShader入门精要/Image/Image1.jpg">   | Unity Shader入门精要 |[源代码(source code)](https://github.com/candycat1992/Unity_Shaders_Book)|
+|<Image src="Resources/图形学理论与算法/Computer Graphics Through OpenGL From Theory to Experiments/Image/Image1.png">|Computer Graphics Through OpenGL: <br>From Theory to Experiments 4|  [官网(official website)](https://www.sumantaguha.com/)|
 
-### ShaderX
+#### Graphics Gems
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/ShaderX(1)/Image/Image1.jpg"> |Direct3D ShaderX| [免费下载(free download)](http://www.realtimerendering.com/resources/shaderx/)|
-| <Image src="Resources/ShaderX(2)/Image/Image1.jpg"> | ShaderX2,Shader Programming Tips<br> and Tricks with DirectX 9.0 <br> Introductions and Tutorials with DirectX 9.0 |  [免费下载(free download)](http://www.realtimerendering.com/resources/shaderx/)|
-| <Image src="Resources/ShaderX(3)/Image/Image1.jpg">|ShaderX3 Advanced Rendering <br>with DirectX and OpenGL|
-| <Image src="Resources/ShaderX(4)/Image/Image1.jpg">|ShaderX4 <br> Advanced Rendering Techniques|
-| <Image src="Resources/ShaderX(5)/Image/Image1.jpg">|ShaderX5 <br> Advanced Rendering Techniques|
-| <Image src="Resources/ShaderX(6)/Image/Image1.jpg">|ShaderX6 <br> Advanced Rendering Techniques|
-| <Image src="Resources/ShaderX(7)/Image/Image1.jpg">|ShaderX7 <br> Advanced Rendering Techniques|
+| <Image src="Resources/图形学理论与算法/Graphics Gems(1)/Image/Image1.jpg">|Graphics Gems|[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/图形学理论与算法/Graphics Gems(2)/Image/Image1.jpg">|Graphics Gems II|[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/图形学理论与算法/Graphics Gems(3)/Image/Image1.jpg">|Graphics Gems III |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/图形学理论与算法/Graphics Gems(4)/Image/Image1.jpg">|Graphics Gems IV |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
+| <Image src="Resources/图形学理论与算法/Graphics Gems(5)/Image/Image1.jpg">|Graphics Gems V |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
 
-### GPU Pro
+#### Introduction to Computer Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/GPU Pro(1)/Image/Image1.jpg">|GPU Pro <br> Advanced Rendering Techniques|[书籍官网(official website)](https://www.routledge.com/GPU-Pro-Advanced-Rendering-Techniques/Engel/p/book/9781568814728)<br> [书籍博客网站(blog)](https://gpupro.blogspot.com/)
-| <Image src="Resources/GPU Pro(2)/Image/Image1.jpg">|GPU Pro 2  <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-2/Engel/p/book/9781568817187)<br>  [书籍博客网站(blog)](https://gpupro2.blogspot.com/) |
-| <Image src="Resources/GPU Pro(3)/Image/Image1.jpg">|GPU PRO 3 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-PRO-3-Advanced-Rendering-Techniques/Engel/p/book/9781439887820)<br> [书籍博客网站(blog)](https://gpupro3.blogspot.com/)|
-| <Image src="Resources/GPU Pro(4)/Image/Image1.jpg">|GPU PRO 4 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-4-Advanced-Rendering-Techniques/Engel/p/book/9781466567436)|
-| <Image src="Resources/GPU Pro(5)/Image/Image1.jpg">|GPU PRO 5 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-5-Advanced-Rendering-Techniques/Engel/p/book/9781482208634) <br> [书籍博客网站(blog)](https://gpupro.blogspot.com/)| 
-| <Image src="Resources/GPU Pro(6)/Image/Image1.jpg">|GPU PRO 6 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-6-Advanced-Rendering-Techniques/Engel/p/book/9781482264616) <br> [书籍博客网站(blog)](https://gpupro.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPU-Pro-6)| 
-| <Image src="Resources/GPU Pro(7)/Image/Image1.jpg">|GPU PRO 7 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-7-Advanced-Rendering-Techniques/Engel/p/book/9781498742535) <br> [书籍博客网站(blog)](https://gpupro.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPU-Pro-7)| 
+|<Image src="Resources/图形学理论与算法/Introduction to Computer Graphics/Image/Image1.jpg">|Introduction to Computer Graphics :<br> A Practical Learning Approach ||
 
-### GPU Zen
+#### Practical Algorithms for 3D Computer Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/GPU Zen(1)/Image/Image1.jpg">|GPU Zen <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.amazon.com/gp/product/B0711SD1DW?tag=realtimerenderin&pldnSite=1) <br> [书籍博客网站(blog)](https://gpuzen.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPUZen)| 
-| <Image src="Resources/GPU Zen(2)/Image/Image1.jpg">|GPU Zen 2 <br> Advanced Rendering Techniques|  [书籍博客网站(blog)](https://gpuzen.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPUZen2)| 
+|<Image src="Resources/图形学理论与算法/Practical Algorithms for 3D Computer Graphics/Image/Image1.jpg">|Practical Algorithms for 3D Computer Graphics|[相关网站(related web site)](http://openfx.org/index.html)|
 
-### GPU Pro 360
+### Computer Graphics From Pixels to Programmable Graphics Hardware
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/GPU Pro 360(1)/Image/Image1.jpg">|GPU Pro 360 Guide to Rendering| [书籍官网(official website)](https://www.amazon.com/GPU-Pro-360-Guide-Rendering/dp/0815365500?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Rendering/Engel/p/book/9780815365501)| 
-| <Image src="Resources/GPU Pro 360(2)/Image/Image1.png">|GPU Pro 360 Guide to Shadows| [书籍官网(official website)](https://www.amazon.com/gp/product/0815382472?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Shadows/Engel/p/book/9780815382478)| 
-| <Image src="Resources/GPU Pro 360(3)/Image/Image1.jpg">|GPU Pro 360 Guide to Geometry Manipulation| [书籍官网(official website)](https://www.amazon.com/gp/product/1138568244?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Geometry-Manipulation/Engel/p/book/9781138568242)| 
-| <Image src="Resources/GPU Pro 360(4)/Image/Image1.jpg">|GPU PRO 360 Guide to GPGPU| [书籍官网(official website)](https://www.amazon.com/gp/product/1138484393?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-PRO-360-Guide-to-GPGPU/Engel/p/book/9781138484399)| 
-| <Image src="Resources/GPU Pro 360(5)/Image/Image1.jpg">|GPU Pro 360 Guide to Mobile Devices| [书籍官网(official website)](https://www.amazon.com/gp/product/0815352816?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Mobile-Devices/Engel/p/book/9780815352815)| 
-| <Image src="Resources/GPU Pro 360(6)/Image/Image1.png">|GPU Pro 360 Guide to 3D Engine Design| [书籍官网(official website)](https://www.amazon.com/gp/product/0815390750?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-3D-Engine-Design/Engel/p/book/9780815390756)| 
-| <Image src="Resources/GPU Pro 360(7)/Image/Image1.png">|GPU Pro 360 Guide to Lighting| [书籍官网(official website)](https://www.amazon.com/gp/product/0815385528?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Lighting/Engel/p/book/9780815385523)| 
-| <Image src="Resources/GPU Pro 360(8)/Image/Image1.png">|GPU Pro 360 Guide to Image Space| [书籍官网(official website)](https://www.amazon.com/gp/product/1138484326?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Image-Space/Engel/p/book/9781138484320)| 
+|<Image src="Resources/图形学理论与算法/Computer Graphics From Pixels to Programmable Graphics Hardware/Image/Image1.jpg">|Computer Graphics:<br>From Pixels to Programmable <br>Graphics Hardware|[发布者网站(Publisher's page)](https://www.routledge.com/Computer-Graphics-From-Pixels-to-Programmable-Graphics-Hardware/Boreskov-Shikin/p/book/9781439867303)|
 
-### Foundations of Game Engine Development
+
+
+### 图形接口
+***
+
+#### Learn OpenGL
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/Foundations of Game Engine Development(1)/Image/Image1.jpg">|Foundations of Game Engine <br>Development, Volume 1| [书籍官网(official website)](http://foundationsofgameenginedev.com/) | 
-| <Image src="Resources/Foundations of Game Engine Development(2)/Image/Image1.jpg">|Foundations of Game Engine <br>Development, Volume 2: Rendering| [书籍官网(official website)](http://foundationsofgameenginedev.com/) | 
-| <Image src="Resources/Foundations of Game Engine Development(3)/Image/Image1.jpg">|Foundations of Game Engine <br>Development, Volume 3: Animation| [书籍官网(official website)](http://foundationsofgameenginedev.com/) | 
-| <Image src="Resources/Foundations of Game Engine Development(4)/Image/Image1.png">|Foundations of Game Engine <br>Development, Volume 4: Physics| [书籍官网(official website)](http://foundationsofgameenginedev.com/) | 
-
-### 3D Math Primer for Graphics and Game Development
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-| <Image src="Resources/3d Math Primer For Graphics and Game Development/Image/Image1.jpg">|3D数学基础|  | 
-| <Image src="Resources/3d Math Primer For Graphics and Game Development/Image/Image2.jpg">|3D数学基础：图形和游戏开发（第2版）|[免费阅读(free reading)](https://www.gamemath.com/book/) | 
-
-### Essential Mathematics for Games and Interactive Applications
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-| <Image src="Resources/Essential Mathematics for Games and Interactive Applications/Image/Image1.jpg">|Essential Mathematics for Games and <br> Interactive Applications|[官方网站(official site)](http://www.essentialmath.com/book.htm) | 
-| <Image src="Resources/Essential Mathematics for Games and Interactive Applications(2)/Image/Image1.jpg">|Essential Mathematics for Games and <br>Interactive Applications, Second Edition|[官方网站(official site)](http://www.essentialmath.com/book.htm) | 
-| <Image src="Resources/Essential Mathematics for Games and Interactive Applications(3)/Image/Image1.jpg">|Essential Mathematics for Games and <br>Interactive Applications, Third Edition|[官方网站(official site)](http://www.essentialmath.com/book.htm) <br> [源代码(source code)](https://github.com/jvanverth/essentialmath)| 
-
-### Jim Blinn's Corner
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-| <Image src="Resources/Jim Blinn's Corner(1)/Image/Image1.png">|Jim Blinn's Corner <br> A Trip Down the Graphics Pipeline|[官方网站(official site)](https://www.amazon.com/reader/1558603875?_encoding=UTF8&tag=realtimerenderin&ref=sib_dp_pt&pldnSite=1)| 
-| <Image src="Resources/Jim Blinn's Corner(2)/Image/Image1.jpg">|Jim Blinn's Corner <br>Dirty Pixels|[官方网站(official site)](https://www.amazon.com/Jim-Blinns-Corner-Kaufmann-Computer/dp/1558604553?tag=realtimerenderin&pldnSite=1)| 
-| <Image src="Resources/Jim Blinn's Corner(3)/Image/Image1.jpg">|Jim Blinn's Corner <br>Notation, Notation, Notation|[官方网站(official site)](https://www.amazon.com/Jim-Blinns-Corner-Notation-Kaufmann/dp/1558608605?tag=realtimerenderin&pldnSite=1)| 
-
-### Game Engine Gems
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-| <Image src="Resources/Game Engine Gems(1)/Image/Image1.jpg">|Game Engine Gems, Volume One|[官方网站(official site)](https://www.amazon.com/Game-Engine-Gems-Eric-Lengyel/dp/0763778885?tag=realtimerenderin&pldnSite=1)| 
-| <Image src="Resources/Game Engine Gems(2)/Image/Image1.jpg">|Game Engine Gems 2|[官方网站(official site)](http://www.gameenginegems.net/geg2.php)| 
-| <Image src="Resources/Game Engine Gems(3)/Image/Image1.jpg">|Game Engine Gems 3|| 
-
-### Game Engine Architecture
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-| <Image src="Resources/Game Engine Architecture(1)/Image/Image1.jpg">|Game Engine Architecture|[官方网站(official site)](https://www.gameenginebook.com/)| 
-| <Image src="Resources/Game Engine Architecture(2)/Image/Image1.jpg">|Game Engine Architecture, Second Edition|[官方网站(official site)](https://www.gameenginebook.com/)| 
-| <Image src="Resources/Game Engine Architecture(3)/Image/Image1.jpg">|Game Engine Architecture, Third Edition|[官方网站(official site)](https://www.gameenginebook.com/)| 
-
-### Graphics Gems
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-| <Image src="Resources/Graphics Gems(1)/Image/Image1.jpg">|Graphics Gems|[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-| <Image src="Resources/Graphics Gems(2)/Image/Image1.jpg">|Graphics Gems II|[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-| <Image src="Resources/Graphics Gems(3)/Image/Image1.jpg">|Graphics Gems III |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-| <Image src="Resources/Graphics Gems(4)/Image/Image1.jpg">|Graphics Gems IV |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-| <Image src="Resources/Graphics Gems(5)/Image/Image1.jpg">|Graphics Gems V |[官方网站(official site)](http://www.realtimerendering.com/resources/GraphicsGems/)| 
-
-### Ray Tracing in One Weekend
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-| <Image src="Resources/Ray Tracing in One Weekend/Image/Image1.png">|Ray Tracing in One Week |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingInOneWeekend.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/01/ray-tracing-in-one-weekend.html)<br>[源代码(source code)](https://github.com/RayTracing/InOneWeekend)| 
-| <Image src="Resources/Ray Tracing the Next Week(2)/Image/Image1.png">|Ray Tracing the Next Week |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingTheNextWeek.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/01/ray-tracing-second-weekend.html)<br>[源代码(source code)](https://github.com/RayTracing/TheNextWeek)| 
-| <Image src="Resources/Ray Tracing The Rest Of Your Life(3)/Image/Image1.png">|Ray Tracing The Rest Of Your Life |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/03/ray-tracing-rest-of-your-life.html)<br>[源代码(source code)](https://github.com/RayTracing/TheRestOfYourLife)| 
-
-### Game Programming Gems
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Game Programming Gems(1)/Image/Image1.jpg">|Game Programming Gems| [亚马逊(Amazon)](https://www.amazon.com/Game-Programming-Gems/dp/1584500492?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/Game Programming Gems(2)/Image/Image1.jpg">|Game Programming Gems 2| [亚马逊(Amazon)](https://www.amazon.com/Game-Programming-Gems-Vol/dp/1584500549?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/Game Programming Gems(3)/Image/Image1.jpg">|Game Programming Gems 3| [亚马逊(Amazon)](https://www.amazon.com/Game-Programming-Gems-v/dp/1584502339?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/Game Programming Gems(4)/Image/Image1.jpg">|Game Programming Gems 4| [亚马逊(Amazon)](https://www.amazon.com/Game-Programming-Gems-v/dp/1584502959?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/Game Programming Gems(5)/Image/Image1.jpg">|Game Programming Gems 5| [亚马逊(Amazon)](https://www.amazon.com/Game-Programming-Gems-v/dp/1584503521?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/Game Programming Gems(6)/Image/Image1.jpg">|Game Programming Gems 6| [亚马逊(Amazon)](https://www.amazon.com/Game-Programming-Gems-CD-ROM-Development/dp/1584504501?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/Best of Game Programming Gems/Image/Image1.jpg">|Best of Game Programming Gems <br>Game Programming Gems 前六本的合集<br>( collection from the first six books in the series)| [亚马逊(Amazon)](https://www.amazon.com/Best-Game-Programming-Gems-DeLoura/dp/1584505710?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/Game Programming Gems(7)/Image/Image1.jpg">|Game Programming Gems 7| [亚马逊(Amazon)](https://www.amazon.com/Game-Programming-Gems/dp/1584505273?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/Game Programming Gems(8)/Image/Image1.jpg">|Game Programming Gems 8| [亚马逊(Amazon)](https://www.amazon.com/Game-Programming-Gems-Adam-Lake/dp/1584507020?tag=realtimerenderin&pldnSite=1)|
-
-### The HDRI Handbook
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/The HDRI Handbook(1)/Image/Image1.jpg">|The HDRI Handbook<br> High Dynamic Range Imaging for <br>Photographers and CG Artists|
-|<Image src="Resources/The HDRI Handbook(2)/Image/Image1.jpg">|The HDRI Handbook 2.0<br> High Dynamic Range Imaging for <br>Photographers and CG Artists|[亚马逊(Amazon)](https://www.amazon.com/HDRI-Handbook-2-0-Dynamic-Photographers/dp/1937538168?tag=realtimerenderin&pldnSite=1) <br>[目录(table of contents)](http://www.hdrlabs.com/book/)|
-
-### High Dynamic Range Imaging
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/High Dynamic Range Imaging(1)/Image/Image1.jpg">|High Dynamic Range Imaging<br>Acquisition, Display, and Image-Based Lighting|
-|<Image src="Resources/High Dynamic Range Imaging(2)/Image/Image1.png">|High Dynamic Range Imaging, Second Edition<br>Acquisition, Display, and Image-Based Lighting|[亚马逊(Amazon)](https://www.amazon.com/High-Dynamic-Range-Imaging-Second/dp/012374914X?tag=realtimerenderin&pldnSite=1)|
-
-### Interactive Computer Graphics: A Top-Down Approach with WebGL
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Interactive Computer Graphics A Top-Down Approach with WebGL(7)/Image/Image1.jpg">|Interactive Computer Graphics: A Top-Down Approach with WebGL (7th Edition)|[亚马逊(Amazon)](https://www.amazon.com/High-Dynamic-Range-Imaging-Second/dp/012374914X?tag=realtimerenderin&pldnSite=1)|
-|<Image src="Resources/交互式计算机图形学(7)/Image/Image1.jpg">|交互式计算机图形学|
-
-### Ray Tracing Gems
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Ray Tracing Gems(1)/Image/Image1.jpg">|Ray Tracing Gems<br> |[官网(official website)](http://www.realtimerendering.com/raytracinggems/)<br>[免费下载(free download)](https://link.springer.com/book/10.1007/978-1-4842-4427-2)<br>[源代码(source code)](https://github.com/Apress/ray-tracing-gems)|
-|<Image src="Resources/Ray Tracing Gems(2)/Image/Image1.png">|Ray Tracing Gems<br> |[官网(official website)](http://www.realtimerendering.com/raytracinggems/)<br>[免费下载(free download)](https://link.springer.com/book/10.1007/978-1-4842-7185-8)<br>[源代码(source code)](https://github.com/Apress/Ray-Tracing-Gems-II)|
-
-### Mathematics for 3D Game Programming and Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Mathematics for 3D Game Programming and Computer Graphics(3)/Image/Image1.jpg">|Mathematics for 3D Game Programming and<br> Computer Graphics, 3rd Edition | [源代码(source code)](http://www.mathfor3dgameprogramming.com/) |
-|<Image src="Resources/Mathematics for 3D Game Programming and Computer Graphics(3)/Image/Image2.jpg">|3D游戏与计算机图形学中的数学方法 | [源代码(source code)](http://www.mathfor3dgameprogramming.com/) |
-
-### Real-Time Shadows
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Real-Time Shadows/Image/Image1.jpg">|Real-Time Shadows | [官网(official website)](https://www.realtimeshadows.com/) |
-
-### Advanced Global Illumination
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Advanced Global Illumination/Image/Image1.jpg">|Advanced Global Illumination | 
-
-### Computer Graphics Principles and Practice
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Computer Graphics Principles and Practice(3)/Image/Image1.jpg">|Computer Graphics, 3rd Edition | [官网(official website)](http://cgpp.net/acknowledgments.xml)|
-
-### Computer Graphics Through OpenGL:From Theory to Experiments 
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Computer Graphics Through OpenGL From Theory to Experiments(4)/Image/Image1.png">|Computer Graphics Through OpenGL: <br>From Theory to Experiments 4|  [官网(official website)](https://www.sumantaguha.com/)|
-
-### Game Physics Engine Development
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Game Physics Engine Development(1)/Image/Image1.jpg">|Game Physics Engine Development|  
-
-### Graphics Shaders
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Graphics Shaders(2)/Image/Image1.jpg">|Graphics Shaders  Theory and Practice|  
-
-### OpenGL Insights
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/OpenGL Insights/Image/Image1.jpg">|OpenGL Insights|[官网(official website)](http://openglinsights.com/)| 
-
-### WebGL Insights
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/WebGL Insights/Image/Image1.jpg">|WebGL Insights|[官网(official website)](http://www.webglinsights.com/) <br> [博客(blog)](https://webglinsights.blogspot.com/) <br>[免费下载(free download)](https://github.com/WebGLInsights/WebGLInsights.github.io/releases/download/v1.0/WebGL.Insights.-.Patrick.Cozzi.pdf)| 
+|<Image src="Resources/图形接口/Learn OpenGL/Image/Image1.jpg">|Learn OpenGL: Learn modern <br>OpenGL graphics programming in a <br>step-by-step fashion|[免费下载(free download)](https://learnopengl.com/book/book_pdf.pdf)<br>[免费阅读(free reading)](https://learnopengl.com/)|
 
 ### OpenGL Programming Guide
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/OpenGL Programming Guide/Image/Image1.jpg">|OpenGL Programming Guide The Official Guide to Learning OpenGL, Version 4.3|
+|<Image src="Resources/图形接口/OpenGL Programming Guide/Image/Image1.jpg">|OpenGL Programming Guide The Official Guide to Learning OpenGL, Version 4.3|
 
-### OpenGL Superbible
+#### OpenGL Superbible
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/OpenGL Superbible Comprehensive Tutorial and Reference(7)/Image/Image1.jpg">|OpenGL Superbible:<br> Comprehensive Tutorial and Reference|[源代码(source code)](https://github.com/openglsuperbible/sb7code)|
+|<Image src="Resources/图形接口/OpenGL Superbible Comprehensive Tutorial and Reference(7)/Image/Image1.jpg">|OpenGL Superbible:<br> Comprehensive Tutorial and Reference|[源代码(source code)](https://github.com/openglsuperbible/sb7code)|
 
-### OpenGL 4 Shading Language Cookbook
+#### Introduction To 3D Game Programming With Directx 
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/OpenGL 4 Shading Language Cookbook(3)/Image/Image1.jpg">|OpenGL 4 Shading Language Cookbook<br>Build high-quality, real-time 3D graphics with<br> OpenGL 4.6, GLSL 4.6 and C++17, 3rd Edition <br>(English Edition)|[源代码(source code)](https://github.com/PacktPublishing/OpenGL-4-Shading-Language-Cookbook-Third-Edition)|
+|<Image src="Resources/图形接口/Introduction To 3D Game Programming With Directx 9.0/Image/Image1.jpg">|Introduction To 3D Game Programming <br> With Directx 9.0|[官网(official website)](http://www.d3dcoder.net/d3d9.htm)|
+|<Image src="Resources/图形接口/DirectX 9.0 3D游戏开发编程基础/Image/Image1.jpg">|DirectX 9.0 3D游戏开发编程基础||
+|<Image src="Resources/图形接口/Introduction to 3D Game Programming with DirectX 11/Image/Image1.jpg">|Introduction to 3D Game Programming <br> with DirectX 11|[官网(official website)](http://www.d3dcoder.net/d3d11.htm)|
+|<Image src="Resources/图形接口/Introduction to 3D Game Programming with DirectX 12/Image/Image1.jpg">|Introduction to 3D Game Programming <br> with DirectX 12|[官网(official website)](http://www.d3dcoder.net/d3d12.htm) <br> [源代码(source code)](https://github.com/d3dcoder/d3d12book)|
+|<Image src="Resources/图形接口/DirectX 12 3D 游戏开发实战/Image/Image1.jpg">|DirectX 12 3D 游戏开发实战||
 
-### OpenGL Shading Language
+#### OpenGL 4 Shading Language Cookbook
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/OpenGL Shading Language/Image/Image1.jpg">|OpenGL Shading Language|
+|<Image src="Resources/图形接口/OpenGL 4 Shading Language Cookbook(3)/Image/Image1.jpg">|OpenGL 4 Shading Language Cookbook<br>Build high-quality, real-time 3D graphics with<br> OpenGL 4.6, GLSL 4.6 and C++17, 3rd Edition <br>(English Edition)|[源代码(source code)](https://github.com/PacktPublishing/OpenGL-4-Shading-Language-Cookbook-Third-Edition)|
 
-
-
-### Fluid Engine Development
+#### Practical Rendering and Computation with Direct3D 11
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Fluid Engine Development/Image/Image1.jpg">|Fluid Engine Development|[源代码(source code)](https://github.com/doyubkim/fluid-engine-dev)|
+|<Image src="Resources/图形接口/Practical Rendering and Computation with Direct3D 11/Image/Image1.jpg">|Practical Rendering and Computation <br> with Direct3D 11||
 
-### Fluid Simulation for Computer Graphics
+#### Real-Time 3D Rendering with DirectX and HLSL
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Fluid Simulation for Computer Graphics(1)/Image/Image1.png">|Fluid Simulation for Computer Graphics|
-|<Image src="Resources/Fluid Simulation for Computer Graphics(2)/Image/Image1.jpg">|Fluid Simulation for Computer Graphics, Second Edition|
+|<Image src="Resources/图形接口/Real-Time 3D Rendering with DirectX and HLSL/Image/Image1.jpg">|Real-Time 3D Rendering with DirectX and HLSL|[官网(official website)](https://www.varcholik.org/wpress/directx-book/) <br> [源代码(source code)](https://bitbucket.org/pvarcholik/real-time-3d-rendering-with-directx-and-hlsl/src/master/)|
 
-### Game Physics Pearls
+#### OpenGL Development Cookbook
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Game Physics Pearls/Image/Image1.jpg">|Game Physics Pearls|
+|<Image src="Resources/图形接口/OpenGL Development Cookbook/Image/Image1.png">|OpenGL Development Cookbook|[发布者网站(publisher's page)](https://subscription.packtpub.com/search?query=opengl%20development%20cookbook)<br>[源代码(source code)](https://github.com/bagobor/opengl33_dev_cookbook_2013)|
 
-### Game Physics
+#### OpenGL Insights
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Game Physics/Image/Image1.jpg">|Game Physics|
+|<Image src="Resources/图形接口/OpenGL Insights/Image/Image1.jpg">|OpenGL Insights|[官网(official website)](http://openglinsights.com/)| 
 
-### Game Physics Cookbook
+#### Vulkan Programming Guide
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Game Physics Cookbook/Image/Image1.jpg">|Game Physics Cookbook| [源代码(source code)](https://github.com/gszauer/GamePhysicsCookbook)|
+|<Image src="Resources/图形接口/Vulkan Programming Guide/Image/Image1.jpg">|Vulkan Programming Guide||
 
-### Physics for Game Developers
+#### Learning Vulkan
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Physics for Game Developers/Image/Image1.jpg">|Physics for Game Developers||
+|<Image src="Resources/图形接口/Learning Vulkan/Image/Image1.jpg">|Learning Vulkan||
 
-### Physics for Game Programmers
+#### Vulkan Cookbook
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Physics for Game Programmers/Image/Image1.jpg">|Physics for Game Programmers||
+|<Image src="Resources/图形接口/Vulkan Cookbook/Image/Image1.jpg">|Vulkan Cookbook|[源代码(source code)](https://github.com/PacktPublishing/Vulkan-Cookbook) <br>[试读(portion free reading)](https://books.google.com.hk/books?id=F0IwDwAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false)|
 
-### Physics Modeling for Game Programmers
+#### WebGL Insights
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Physics Modeling for Game Programmers/Image/Image1.jpg">|Physics Modeling for Game Programmers||
+|<Image src="Resources/图形接口/WebGL Insights/Image/Image1.jpg">|WebGL Insights|[官网(official website)](http://www.webglinsights.com/) <br> [博客(blog)](https://webglinsights.blogspot.com/) <br>[免费下载(free download)](https://github.com/WebGLInsights/WebGLInsights.github.io/releases/download/v1.0/WebGL.Insights.-.Patrick.Cozzi.pdf)| 
 
-### Physics Based Animation
+#### WebGL Programming Guide
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Physics Based Animation/Image/Image1.jpg">|Physics Based Animation||
+|<Image src="Resources/图形接口/WebGL Programming Guide/Image/Image1.png">|WebGL Programming Guide|[书籍网站(book's website)](https://sites.google.com/site/webglbook/)<br>[部分试读(portion free reading)](https://ptgmedia.pearsoncmg.com/images/9780321902924/samplepages/0321902920.pdf)|
 
-### Foundations of Physically Based Modeling and Animation
+
+#### Beginning DirectX 11 Game Programming
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Foundations of Physically Based Modeling and Animation/Image/Image1.jpg">|Foundations of Physically Based <br>Modeling and Animation||
+|<Image src="Resources/图形接口/Beginning DirectX 11 Game Programming/Image/Image1.jpg">|Beginning DirectX 11 Game Programming||
 
-### Real-Time Collision Detection
+
+#### The CUDA Handbook
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Real-Time Collision Detection/Image/Image1.jpg">|Real-Time Collision Detection|[官网(official website)](http://realtimecollisiondetection.net/)|
+|<Image src="Resources/图形接口/The CUDA Handbook/Image/Image1.jpg">|The CUDA Handbook|[源代码(source code)](https://github.com/ArchaeaSoftware/cudahandbook)|
 
-### Introduction To 3D Game Programming With Directx 
+#### Computer Graphics Programming
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Introduction To 3D Game Programming With Directx 9.0/Image/Image1.jpg">|Introduction To 3D Game Programming <br> With Directx 9.0|[官网(official website)](http://www.d3dcoder.net/d3d9.htm)|
-|<Image src="Resources/DirectX 9.0 3D游戏开发编程基础/Image/Image1.jpg">|DirectX 9.0 3D游戏开发编程基础||
-|<Image src="Resources/Introduction to 3D Game Programming with DirectX 11/Image/Image1.jpg">|Introduction to 3D Game Programming <br> with DirectX 11|[官网(official website)](http://www.d3dcoder.net/d3d11.htm)|
-|<Image src="Resources/Introduction to 3D Game Programming with DirectX 12/Image/Image1.jpg">|Introduction to 3D Game Programming <br> with DirectX 12|[官网(official website)](http://www.d3dcoder.net/d3d12.htm) <br> [源代码(source code)](https://github.com/d3dcoder/d3d12book)|
-|<Image src="Resources/DirectX 12 3D 游戏开发实战/Image/Image1.jpg">|DirectX 12 3D 游戏开发实战||
+|<Image src="Resources/图形接口/Computer Graphics Programming/Image/Image1.jpg">|Computer Graphics Programming|[发布者网站(Publisher's page)](https://www.merclearning.com/books-technology_computing.html)|
 
-### Practical Rendering and Computation with Direct3D 11
+#### Direct3D Rendering Cookbook
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Practical Rendering and Computation with Direct3D 11/Image/Image1.jpg">|Practical Rendering and Computation <br> with Direct3D 11||
+|<Image src="Resources/图形接口/Direct3D Rendering Cookbook/Image/Image1.jpg">|Direct3D Rendering Cookbook |[发布者网站(Publisher's page)](https://www.packtpub.com/product/direct3d-rendering-cookbook/9781849697101)|
 
-### Real-Time 3D Rendering with DirectX and HLSL
+#### OpenGL Shading Language
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Real-Time 3D Rendering with DirectX and HLSL/Image/Image1.jpg">|Real-Time 3D Rendering with DirectX and HLSL|[官网(official website)](https://www.varcholik.org/wpress/directx-book/) <br> [源代码(source code)](https://bitbucket.org/pvarcholik/real-time-3d-rendering-with-directx-and-hlsl/src/master/)|
+|<Image src="Resources/图形接口/OpenGL Shading Language/Image/Image1.jpg">|OpenGL Shading Language|
 
-### The Art of Fluid Animation
+#### GLSL Essentials
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/The Art of Fluid Animation/Image/Image1.jpg">|The Art of Fluid Animation||
+|<Image src="Resources/图形接口/GLSL Essentials/Image/Image1.jpg">|GLSL Essentials||
 
-### Ray Tracing from the Ground Up
+### 实时渲染
+***
+
+#### Computer Graphics from Scratch
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Ray Tracing from the Ground Up/Image/Image1.png">|Ray Tracing from the Ground Up|[源代码(source code)](https://github.com/hadryansalles/ray-tracing-from-the-ground-up)|
+|<Image src="Resources/实时渲染/Computer Graphics from Scratch/Image/Image1.jpg">|Computer Graphics from Scratch|[官网(official website )](https://nostarch.com/computer-graphics-scratch)|
 
-### Character Animation With Direct3D
+
+#### Unity Shader入门精要
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Character Animation With Direct3D/Image/Image1.jpg">|Character Animation With Direct3D||
+| <Image src="Resources/UnityShader入门精要/Image/Image1.jpg">   | Unity Shader入门精要 |[源代码(source code)](https://github.com/candycat1992/Unity_Shaders_Book)|
 
-### Realtime 3D Character Animation with Visual C++
+#### Real-Time Rendering
+***
+|  picture   | title  | related resources |
+|  ----  | ----  | ----  |
+|  <Image src="Resources/实时渲染/Real-Time Rendering/Image/Image1.jpg">   | Real-Time Rendering,<br> Fourth Edition | [书籍官网(official website)](http://www.realtimerendering.com/) <br> [书籍网站的 Graphics books有大量图形相关书籍](http://www.realtimerendering.com/books.html) <br> [浅墨(毛星云)对书籍相关文献的整理(literature)](https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection) |
+
+#### GPU Gems
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Realtime 3D Character Animation with Visual C++/Image/Image1.jpg">|Realtime 3D Character Animation with Visual C++||
+| <Image src="Resources/实时渲染/GPU Gems(1)/Image/Image1.jpg">   | GPU Gems | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems/contributors) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes)|
+| <Image src="Resources/实时渲染/GPU Gems(2)/Image/Image1.jpg">  | GPU Gems 2 | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems2/copyright) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes)|
+| <Image src="Resources/实时渲染/GPU Gems(3)/Image/Image1.jpg"> | GPU Gems 3 | [免费阅读(free reading)](https://developer.nvidia.com/gpugems/gpugems3/contributors) <br> [浅墨(毛星云)对书籍相关代码的整理(source code)](https://github.com/QianMo/GPU-Gems-Book-Source-Code) <br> [浅墨(毛星云)对书籍相关内容的总结(summary)](https://github.com/QianMo/Game-Programmer-Study-Notes) |
 
-### Vulkan Programming Guide
+#### ShaderX
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Vulkan Programming Guide/Image/Image1.jpg">|Vulkan Programming Guide||
+| <Image src="Resources/实时渲染/ShaderX(1)/Image/Image1.jpg"> |Direct3D ShaderX| [免费下载(free download)](http://www.realtimerendering.com/resources/shaderx/)|
+| <Image src="Resources/实时渲染/ShaderX(2)/Image/Image1.jpg"> | ShaderX2,Shader Programming Tips<br> and Tricks with DirectX 9.0 <br> Introductions and Tutorials with DirectX 9.0 |  [免费下载(free download)](http://www.realtimerendering.com/resources/shaderx/)|
+| <Image src="Resources/实时渲染/ShaderX(3)/Image/Image1.jpg">|ShaderX3 Advanced Rendering <br>with DirectX and OpenGL|
+| <Image src="Resources/实时渲染/ShaderX(4)/Image/Image1.jpg">|ShaderX4 <br> Advanced Rendering Techniques|
+| <Image src="Resources/实时渲染/ShaderX(5)/Image/Image1.jpg">|ShaderX5 <br> Advanced Rendering Techniques|
+| <Image src="Resources/实时渲染/ShaderX(6)/Image/Image1.jpg">|ShaderX6 <br> Advanced Rendering Techniques|
+| <Image src="Resources/实时渲染/ShaderX(7)/Image/Image1.jpg">|ShaderX7 <br> Advanced Rendering Techniques|
 
-### Learning Vulkan
+#### GPU Pro
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Learning Vulkan/Image/Image1.jpg">|Learning Vulkan||
+| <Image src="Resources/实时渲染/GPU Pro(1)/Image/Image1.jpg">|GPU Pro <br> Advanced Rendering Techniques|[书籍官网(official website)](https://www.routledge.com/GPU-Pro-Advanced-Rendering-Techniques/Engel/p/book/9781568814728)<br> [书籍博客网站(blog)](https://gpupro.blogspot.com/)
+| <Image src="Resources/实时渲染/GPU Pro(2)/Image/Image1.jpg">|GPU Pro 2  <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-2/Engel/p/book/9781568817187)<br>  [书籍博客网站(blog)](https://gpupro2.blogspot.com/) |
+| <Image src="Resources/实时渲染/GPU Pro(3)/Image/Image1.jpg">|GPU PRO 3 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-PRO-3-Advanced-Rendering-Techniques/Engel/p/book/9781439887820)<br> [书籍博客网站(blog)](https://gpupro3.blogspot.com/)|
+| <Image src="Resources/实时渲染/GPU Pro(4)/Image/Image1.jpg">|GPU PRO 4 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-4-Advanced-Rendering-Techniques/Engel/p/book/9781466567436)|
+| <Image src="Resources/实时渲染/GPU Pro(5)/Image/Image1.jpg">|GPU PRO 5 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-5-Advanced-Rendering-Techniques/Engel/p/book/9781482208634) <br> [书籍博客网站(blog)](https://gpupro.blogspot.com/)| 
+| <Image src="Resources/实时渲染/GPU Pro(6)/Image/Image1.jpg">|GPU PRO 6 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-6-Advanced-Rendering-Techniques/Engel/p/book/9781482264616) <br> [书籍博客网站(blog)](https://gpupro.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPU-Pro-6)| 
+| <Image src="Resources/实时渲染/GPU Pro(7)/Image/Image1.jpg">|GPU PRO 7 <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.routledge.com/GPU-Pro-7-Advanced-Rendering-Techniques/Engel/p/book/9781498742535) <br> [书籍博客网站(blog)](https://gpupro.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPU-Pro-7)| 
 
-### Vulkan Cookbook
+#### GPU Zen
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Vulkan Cookbook/Image/Image1.jpg">|Vulkan Cookbook|[源代码(source code)](https://github.com/PacktPublishing/Vulkan-Cookbook) <br>[试读(portion free reading)](https://books.google.com.hk/books?id=F0IwDwAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false)|
+| <Image src="Resources/实时渲染/GPU Zen(1)/Image/Image1.jpg">|GPU Zen <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.amazon.com/gp/product/B0711SD1DW?tag=realtimerenderin&pldnSite=1) <br> [书籍博客网站(blog)](https://gpuzen.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPUZen)| 
+| <Image src="Resources/实时渲染/GPU Zen(2)/Image/Image1.jpg">|GPU Zen 2 <br> Advanced Rendering Techniques|  [书籍博客网站(blog)](https://gpuzen.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPUZen2)| 
 
-### GLSL Essentials
+#### GPU Pro 360
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/GLSL Essentials/Image/Image1.jpg">|GLSL Essentials||
+| <Image src="Resources/实时渲染/GPU Pro 360(1)/Image/Image1.jpg">|GPU Pro 360 Guide to Rendering| [书籍官网(official website)](https://www.amazon.com/GPU-Pro-360-Guide-Rendering/dp/0815365500?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Rendering/Engel/p/book/9780815365501)| 
+| <Image src="Resources/实时渲染/GPU Pro 360(2)/Image/Image1.png">|GPU Pro 360 Guide to Shadows| [书籍官网(official website)](https://www.amazon.com/gp/product/0815382472?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Shadows/Engel/p/book/9780815382478)| 
+| <Image src="Resources/实时渲染/GPU Pro 360(3)/Image/Image1.jpg">|GPU Pro 360 Guide to Geometry Manipulation| [书籍官网(official website)](https://www.amazon.com/gp/product/1138568244?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Geometry-Manipulation/Engel/p/book/9781138568242)| 
+| <Image src="Resources/实时渲染/GPU Pro 360(4)/Image/Image1.jpg">|GPU PRO 360 Guide to GPGPU| [书籍官网(official website)](https://www.amazon.com/gp/product/1138484393?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-PRO-360-Guide-to-GPGPU/Engel/p/book/9781138484399)| 
+| <Image src="Resources/实时渲染/GPU Pro 360(5)/Image/Image1.jpg">|GPU Pro 360 Guide to Mobile Devices| [书籍官网(official website)](https://www.amazon.com/gp/product/0815352816?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Mobile-Devices/Engel/p/book/9780815352815)| 
+| <Image src="Resources/实时渲染/GPU Pro 360(6)/Image/Image1.png">|GPU Pro 360 Guide to 3D Engine Design| [书籍官网(official website)](https://www.amazon.com/gp/product/0815390750?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-3D-Engine-Design/Engel/p/book/9780815390756)| 
+| <Image src="Resources/实时渲染/GPU Pro 360(7)/Image/Image1.png">|GPU Pro 360 Guide to Lighting| [书籍官网(official website)](https://www.amazon.com/gp/product/0815385528?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Lighting/Engel/p/book/9780815385523)| 
+| <Image src="Resources/实时渲染/GPU Pro 360(8)/Image/Image1.png">|GPU Pro 360 Guide to Image Space| [书籍官网(official website)](https://www.amazon.com/gp/product/1138484326?tag=realtimerenderin&pldnSite=1) <br> [目录(table of contents)](https://www.routledge.com/GPU-Pro-360-Guide-to-Image-Space/Engel/p/book/9781138484320)| 
+
+
+#### Real-Time Shadows
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Real-Time Shadows/Image/Image1.jpg">|Real-Time Shadows | [官网(official website)](https://www.realtimeshadows.com/) |
+
+#### Real Time Volume Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Real Time Volume Graphics/Image/Image1.jpg">|Real Time Volume Graphics|[官网(official website)](http://www.real-time-volume-graphics.org/)|
+
+
+#### Real Time Cameras
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Real Time Cameras/Image/Image1.jpg">|Real Time Cameras||
+
+#### Non Photorealistic Rendering
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Non Photorealistic Rendering/Image/Image1.jpg">|Non Photorealistic Rendering||
+
+#### Non Photorealistic Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Non Photorealistic Computer Graphics/Image/Image1.jpg">|Non Photorealistic Computer Graphics||
+
+#### The Algorithms and Principles of Non photorealistic Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/The Algorithms and Principles of Non photorealistic Graphics/Image/Image1.jpg">|The Algorithms and Principles of Non photorealistic Graphics||
+
+
+#### Foundations of Game Engine Development
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+| <Image src="Resources/实时渲染/Foundations of Game Engine Development(1)/Image/Image1.jpg">|Foundations of Game Engine <br>Development, Volume 1| [书籍官网(official website)](http://foundationsofgameenginedev.com/) | 
+| <Image src="Resources/实时渲染/Foundations of Game Engine Development(2)/Image/Image1.jpg">|Foundations of Game Engine <br>Development, Volume 2: Rendering| [书籍官网(official website)](http://foundationsofgameenginedev.com/) | 
+| <Image src="Resources/实时渲染/Foundations of Game Engine Development(3)/Image/Image1.jpg">|Foundations of Game Engine <br>Development, Volume 3: Animation| [书籍官网(official website)](http://foundationsofgameenginedev.com/) | 
+| <Image src="Resources/实时渲染/Foundations of Game Engine Development(4)/Image/Image1.png">|Foundations of Game Engine <br>Development, Volume 4: Physics| [书籍官网(official website)](http://foundationsofgameenginedev.com/) | 
+
+#### Jim Blinn's Corner
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+| <Image src="Resources/实时渲染/Jim Blinn's Corner(1)/Image/Image1.png">|Jim Blinn's Corner <br> A Trip Down the Graphics Pipeline|[官方网站(official site)](https://www.amazon.com/reader/1558603875?_encoding=UTF8&tag=realtimerenderin&ref=sib_dp_pt&pldnSite=1)| 
+| <Image src="Resources/实时渲染/Jim Blinn's Corner(2)/Image/Image1.jpg">|Jim Blinn's Corner <br>Dirty Pixels|[官方网站(official site)](https://www.amazon.com/Jim-Blinns-Corner-Kaufmann-Computer/dp/1558604553?tag=realtimerenderin&pldnSite=1)| 
+| <Image src="Resources/实时渲染/Jim Blinn's Corner(3)/Image/Image1.jpg">|Jim Blinn's Corner <br>Notation, Notation, Notation|[官方网站(official site)](https://www.amazon.com/Jim-Blinns-Corner-Notation-Kaufmann/dp/1558608605?tag=realtimerenderin&pldnSite=1)| 
+
+#### The HDRI Handbook
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/The HDRI Handbook(1)/Image/Image1.jpg">|The HDRI Handbook<br> High Dynamic Range Imaging for <br>Photographers and CG Artists|
+|<Image src="Resources/实时渲染/The HDRI Handbook(2)/Image/Image1.jpg">|The HDRI Handbook 2.0<br> High Dynamic Range Imaging for <br>Photographers and CG Artists|[目录(table of contents)](http://www.hdrlabs.com/book/)|
+
+#### 3D Graphics for Game Programming
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/3D Graphics for Game Programming/Image/Image1.png">|3D Graphics for Game Programming|[发布者网站(publisher's page)](https://www.routledge.com/3D-Graphics-for-Game-Programming/Han/p/book/9781439827376)|
+
+
+#### Light and Skin Interactions
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Light and Skin Interactions/Image/Image1.png">|Light and Skin Interactions||
+
+#### Video Game Optimization
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Video Game Optimization/Image/Image1.png">|Video Game Optimization||
+
+### High Dynamic Range Imaging
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/High Dynamic Range Imaging(1)/Image/Image1.jpg">|High Dynamic Range Imaging<br>Acquisition, Display, and Image-Based Lighting|
+|<Image src="Resources/实时渲染/High Dynamic Range Imaging(2)/Image/Image1.png">|High Dynamic Range Imaging, Second Edition<br>Acquisition, Display, and Image-Based Lighting||
+
+#### Image Objects
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Image Objects/Image/Image1.jpg">|Image Objects:<br>An Archaeology of Computer Graphics|[发布者网站(Publisher's page)](https://mitpress.mit.edu/9780262045032/)|
+
+#### 3D Graphics Rendering Cookbook
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/3D Graphics Rendering Cookbook/Image/Image1.jpg">|3D Graphics Rendering Cookbook|[源代码(source code)](https://github.com/PacktPublishing/3D-Graphics-Rendering-Cookbook)|
+
+#### Graphics Shaders
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Graphics Shaders(2)/Image/Image1.jpg">|Graphics Shaders  Theory and Practice|  
+
+#### Advanced High Dynamic Range Imaging
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Advanced High Dynamic Range Imaging/Image/Image1.jpg">|Advanced High Dynamic Range Imaging<br>2nd Edition|[发布者网站(Publisher's page))](https://www.routledge.com/Advanced-High-Dynamic-Range-Imaging/Banterle-Artusi-Debattista-Chalmers/p/book/9781498706940)|
+
+#### A Biography of the Pixel
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/A Biography of the Pixel/Image/Image1.jpg">|A Biography of the Pixel|[发布者网站(Publisher's page)](https://mitpress.mit.edu/9780262542456/)|
+
+### 光线追踪与离线渲染
+***
+#### Ray Tracing in One Weekend
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+| <Image src="Resources/光线追踪与离线渲染/Ray Tracing in One Weekend/Image/Image1.png">|Ray Tracing in One Week |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingInOneWeekend.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/01/ray-tracing-in-one-weekend.html)<br>[源代码(source code)](https://github.com/RayTracing/InOneWeekend)| 
+| <Image src="Resources/光线追踪与离线渲染/Ray Tracing the Next Week(2)/Image/Image1.png">|Ray Tracing the Next Week |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingTheNextWeek.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/01/ray-tracing-second-weekend.html)<br>[源代码(source code)](https://github.com/RayTracing/TheNextWeek)| 
+| <Image src="Resources/光线追踪与离线渲染/Ray Tracing The Rest Of Your Life(3)/Image/Image1.png">|Ray Tracing The Rest Of Your Life |[免费阅读(free reading)](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html)<br>[博客(blog)](https://in1weekend.blogspot.com/2016/03/ray-tracing-rest-of-your-life.html)<br>[源代码(source code)](https://github.com/RayTracing/TheRestOfYourLife)| 
+
+#### Ray Tracing from the Ground Up
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/光线追踪与离线渲染/Ray Tracing from the Ground Up/Image/Image1.png">|Ray Tracing from the Ground Up|[源代码(source code)](https://github.com/hadryansalles/ray-tracing-from-the-ground-up)|
+
+
+#### The Ray Tracer Challenge
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/光线追踪与离线渲染/The Ray Tracer Challenge/Image/Image1.jpg">|The Ray Tracer Challenge<br>  A Test-Driven Guide to Your First 3D Renderer|[官网(official website)](https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/)|
+
+#### Ray Tracing A Tool for All
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/光线追踪与离线渲染/Ray Tracing A Tool for All/Image/Image1.jpg">|Ray Tracing A Tool for All||
+
+
+#### Ray Tracing Gems
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/光线追踪与离线渲染/Ray Tracing Gems(1)/Image/Image1.jpg">|Ray Tracing Gems<br> |[官网(official website)](http://www.realtimerendering.com/raytracinggems/)<br>[免费下载(free download)](https://link.springer.com/book/10.1007/978-1-4842-4427-2)<br>[源代码(source code)](https://github.com/Apress/ray-tracing-gems)|
+|<Image src="Resources/光线追踪与离线渲染/Ray Tracing Gems(2)/Image/Image1.png">|Ray Tracing Gems<br> |[官网(official website)](http://www.realtimerendering.com/raytracinggems/)<br>[免费下载(free download)](https://link.springer.com/book/10.1007/978-1-4842-7185-8)<br>[源代码(source code)](https://github.com/Apress/Ray-Tracing-Gems-II)|
+
+#### Physically Based Rendering From Theory To Implementation
+***
+|  picture   | title  |  related resources |
+|  ----  | ----  | ----|
+| <Image src="Resources/光线追踪与离线渲染/Physically Based Rendering/Image/Image1.jpg">  | Physically Based Rendering, <br>Third Edition |  [免费阅读(free reading)](https://pbr-book.org/)  <br> [浅墨(毛星云)对相关渲染的总结(summary)](https://github.com/QianMo/PBR-White-Paper)|
+
+#### Advanced Global Illumination
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/光线追踪与离线渲染/Advanced Global Illumination/Image/Image1.jpg">|Advanced Global Illumination | 
+
+### 图形学物理,几何,模拟
+
+#### Game Physics Cookbook
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Game Physics Cookbook/Image/Image1.jpg">|Game Physics Cookbook| [源代码(source code)](https://github.com/gszauer/GamePhysicsCookbook)|
+
+#### Physics for Game Developers
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Physics for Game Developers/Image/Image1.jpg">|Physics for Game Developers||
+
+#### Game Physics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Game Physics/Image/Image1.jpg">|Game Physics|
+
+#### GPGPU Programming 
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/GPGPU Programming/Image/Image1.jpg">|GPGPU Programming |[相关代码网站(book's code website)](https://www.geometrictools.com/Books/Books.html)<br>[发布者网站(Publisher's page)](https://www.routledge.com/GPGPU-Programming-for-Games-and-Science/Eberly/p/book/9781466595354)|
+
+
+#### Foundations of Physically Based Modeling and Animation
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Foundations of Physically Based Modeling and Animation/Image/Image1.jpg">|Foundations of Physically Based <br>Modeling and Animation||
+
+#### Character Animation With Direct3D
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Character Animation With Direct3D/Image/Image1.jpg">|Character Animation With Direct3D||
 
 ### Computer Animation Algorithms and Techniques
 ***
@@ -581,367 +678,450 @@ Computer graphics books and web resources collection.
 |<Image src="Resources/Computer Animation Algorithms and Techniques/Image/Image1.jpg">|Computer Animation Algorithms and Techniques||
 |<Image src="Resources/Computer Animation Algorithms and Techniques/Image/Image2.jpg">|Computer Animation Algorithms and Techniques <br> Second Edition||
 
-### The Ray Tracer Challenge
+#### Realtime 3D Character Animation with Visual C++
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/The Ray Tracer Challenge/Image/Image1.jpg">|The Ray Tracer Challenge<br>  A Test-Driven Guide to Your First 3D Renderer|[官网(official website)](https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/)|
+|<Image src="Resources/图形学物理几何模拟/Realtime 3D Character Animation with Visual C++/Image/Image1.jpg">|Realtime 3D Character Animation with Visual C++||
 
-### Ray Tracing A Tool for All
+#### Real-Time Collision Detection
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Ray Tracing A Tool for All/Image/Image1.jpg">|Ray Tracing A Tool for All||
+|<Image src="Resources/图形学物理几何模拟/Real-Time Collision Detection/Image/Image1.jpg">|Real-Time Collision Detection|[官网(official website)](http://realtimecollisiondetection.net/)|
 
-### Cloth Simulation for Computer Graphics
+#### Physics for Game Programmers
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Cloth Simulation for Computer Graphics/Image/Image1.png">|Cloth Simulation for Computer Graphics||
+|<Image src="Resources/图形学物理几何模拟/Physics for Game Programmers/Image/Image1.jpg">|Physics for Game Programmers||
 
-### Real Time Volume Graphics
+### Physics Modeling for Game Programmers
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Real Time Volume Graphics/Image/Image1.jpg">|Real Time Volume Graphics|[官网(official website)](http://www.real-time-volume-graphics.org/)|
+|<Image src="Resources/图形学物理几何模拟/Physics Modeling for Game Programmers/Image/Image1.jpg">|Physics Modeling for Game Programmers||
 
-### Computer Graphics from Scratch
+### Physics Based Animation
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Computer Graphics from Scratch/Image/Image1.jpg">|Computer Graphics from Scratch|[官网(official website )](https://nostarch.com/computer-graphics-scratch)|
+|<Image src="Resources/图形学物理几何模拟/Physics Based Animation/Image/Image1.jpg">|Physics Based Animation||
 
-### 3D Game Engine Design
+#### Game Physics Pearls
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/3D Game Engine Design/Image/Image1.jpg">|3D Game Engine Design|[相关网站(related web site)](https://www.geometrictools.com/)|
+|<Image src="Resources/图形学物理几何模拟/Game Physics Pearls/Image/Image1.jpg">|Game Physics Pearls|
 
-### 3D Game Engine Architecture
+#### Game Physics Engine Development
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/3D Game Engine Architecture/Image/Image1.jpg">|3D Game Engine Architecture <br> Engineering Real-Time Applications with Wild Magic||
+|<Image src="Resources/图形学物理几何模拟/Game Physics Engine Development/Image/Image1.jpg">|Game Physics Engine Development|  
 
-### Real Time Cameras
+#### Fluid Engine Development
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Real Time Cameras/Image/Image1.jpg">|Real Time Cameras||
+|<Image src="Resources/图形学物理几何模拟/Fluid Engine Development/Image/Image1.jpg">|Fluid Engine Development|[源代码(source code)](https://github.com/doyubkim/fluid-engine-dev)|
 
-### Game AI Pro
+#### Fluid Simulation for Computer Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Game AI Pro/Image/Image1.jpg">|Game AI Pro|[官网(official website )](http://www.gameaipro.com/)|
-|<Image src="Resources/Game AI Pro/Image/Image2.jpg">|Game AI Pro 2||
-|<Image src="Resources/Game AI Pro/Image/Image3.jpg">|Game AI Pro 3||
+|<Image src="Resources/图形学物理几何模拟/Fluid Simulation for Computer Graphics(1)/Image/Image1.png">|Fluid Simulation for Computer Graphics|
+|<Image src="Resources/Fluid Simulation for Computer Graphics(2)/Image/Image1.jpg">|Fluid Simulation for Computer Graphics, Second Edition|
 
-### Visualizing Quaternions
+#### The Art of Fluid Animation
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Visualizing Quaternions/Image/Image1.jpg">|Visualizing Quaternions||
+|<Image src="Resources/图形学物理几何模拟/The Art of Fluid Animation/Image/Image1.jpg">|The Art of Fluid Animation||
 
-### Quaternions for Computer Graphics
+#### An Integrated Introduction to Computer Graphics and Geometric Modeling
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Quaternions for Computer Graphics/Image/Image1.jpg">|Quaternions for Computer Graphics||
+|<Image src="Resources/图形学物理几何模拟/An Integrated Introduction to Computer Graphics and Geometric Modeling/Image/Image1.jpg">|An Integrated Introduction to Computer<br> Graphics and Geometric Modeling||
+|<Image src="Resources/图形学物理几何模拟/An Integrated Introduction to Computer Graphics and Geometric Modeling/Image/Image2.jpg">|计算机图形学与几何造型导论||
 
-### 3D Engine Design for Virtual Globes
+#### Geometric Data Structures for Computer Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/3D Engine Design for Virtual Globes/Image/Image1.jpg">|3D Engine Design for Virtual Globes|[官网(official website )](http://www.virtualglobebook.com/)<br> [源代码(source code)](https://github.com/virtualglobebook/OpenGlobe)|
+|<Image src="Resources/图形学物理几何模拟/Geometric Data Structures for Computer Graphics/Image/Image1.jpg">|Geometric Data Structures for <br>Computer Graphics|[发布者网站(publisher's page)](https://www.routledge.com/Geometric-Data-Structures-for-Computer-Graphics/Langetepe-Zachmann/p/book/9781568812359)|
 
-### Texturing and Modeling
+#### Digital Modeling of Material Appearance
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Texturing and Modeling/Image/Image1.jpg">|Texturing and Modeling, Third Edition<br>A Procedural Approach||
+|<Image src="Resources/图形学物理几何模拟/Digital Modeling of Material Appearance/Image/Image1.jpg">|Digital Modeling of Material Appearance||
 
-### Level of Detail for 3D Graphics
+#### Cloth Simulation for Computer Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Level of Detail for 3D Graphics/Image/Image1.jpg">|Level of Detail for 3D Graphics|[官网(official website )](https://lodbook.com/)|
+|<Image src="Resources/图形学物理几何模拟/Cloth Simulation for Computer Graphics/Image/Image1.png">|Cloth Simulation for Computer Graphics||
 
-### Non Photorealistic Rendering
+#### Computer Facial Animation
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Non Photorealistic Rendering/Image/Image1.jpg">|Non Photorealistic Rendering||
+|<Image src="Resources/图形学物理几何模拟/Computer Facial Animation/Image/Image1.jpg">|Computer Facial Animation ||
 
-### Non Photorealistic Computer Graphics
+#### Digital Character Development
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Non Photorealistic Computer Graphics/Image/Image1.jpg">|Non Photorealistic Computer Graphics||
+|<Image src="Resources/图形学物理几何模拟/Digital Character Development/Image/Image1.jpg">|Digital Character Development||
 
-### The Algorithms and Principles of Non photorealistic Graphics
+#### GPU Computing Gems 
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/The Algorithms and Principles of Non photorealistic Graphics/Image/Image1.jpg">|The Algorithms and Principles of Non photorealistic Graphics||
+|<Image src="Resources/图形学物理几何模拟/GPU Computing Gems/Image/Image1.jpg">|GPU Computing Gems Jade Edition||
+|<Image src="Resources/图形学物理几何模拟/GPU Computing Gems/Image/Image2.jpg">|GPU Computing Gems Emerald Edition||
 
-### Digital Character Development
+### 图形学数学
+
+### 线性代数及其应用
+***
+|  picture   | title  | related resources |
+|  ----  | ----  |----  |
+| <Image src="Resources/图形学数学/线性代数及其应用/Image/Image1.jpg">  | 线性代数及其应用 | [正课与习题视频讲解](https://www.bilibili.com/video/BV1WX4y1z756) |
+
+### 普林斯顿微积分读本
+***
+|  picture   | title  |
+|  ----  | ----  |
+| <Image src="Resources/图形学数学/普林斯顿微积分读本/Image/Image1.jpg">  | 普林斯顿微积分读本(修订版) |
+
+### 托马斯微积分
+***
+|  picture   | title  |
+|  ----  | ----  |
+| <Image src="Resources/图形学数学/托马斯微积分/Image/Image1.jpg">  | 托马斯微积分 |
+
+### 概率导论
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Digital Character Development/Image/Image1.jpg">|Digital Character Development||
+| <Image src="Resources/图形学数学/概率导论/Image/Image1.jpg">  | Introduction to Probability |[答案](http://www.athenasc.com/probbook.html) |
+| <Image src="Resources/图形学数学/概率导论/Image/Image2.jpg">  | 概率导论 |[答案](http://www.athenasc.com/probbook.html)|
 
-### 3D Graphics Rendering Cookbook
+#### 3D Math Primer for Graphics and Game Development
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/3D Graphics Rendering Cookbook/Image/Image1.jpg">|3D Graphics Rendering Cookbook|[源代码(source code)](https://github.com/PacktPublishing/3D-Graphics-Rendering-Cookbook)|
+| <Image src="Resources/图形学数学/3d Math Primer For Graphics and Game Development/Image/Image1.jpg">|3D数学基础|  | 
+| <Image src="Resources/图形学数学/3d Math Primer For Graphics and Game Development/Image/Image2.jpg">|3D数学基础：图形和游戏开发（第2版）|[免费阅读(free reading)](https://www.gamemath.com/book/) | 
 
-### Tricks of the 3D Game Programming Gurus Advanced 3D Graphics and Rasterization
+#### Mathematics for 3D Game Programming and Computer Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Tricks of the 3D Game Programming Gurus Advanced 3D Graphics and Rasterization/Image/Image1.jpg">|Tricks of the 3D Game Programming Gurus <br>Advanced 3D Graphics and Rasterization||
-|<Image src="Resources/Tricks of the 3D Game Programming Gurus Advanced 3D Graphics and Rasterization/Image/CNImage1.jpg">|3D游戏编程大师技巧（上下册）||
+|<Image src="Resources/图形学数学/Mathematics for 3D Game Programming and Computer Graphics/Image/Image1.jpg">|Mathematics for 3D Game Programming and<br> Computer Graphics, 3rd Edition | [源代码(source code)](http://www.mathfor3dgameprogramming.com/) |
+|<Image src="Resources/图形学数学/Mathematics for 3D Game Programming and Computer Graphics/Image/Image2.jpg">|3D游戏与计算机图形学中的数学方法 | [源代码(source code)](http://www.mathfor3dgameprogramming.com/) |
 
-### Principles of Digital Image Synthesis 
+
+#### Quaternions for Computer Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Principles of Digital Image Synthesis/Image/Image1.jpg">|Principles of Digital Image Synthesis |[免费下载(free download)](http://www.realtimerendering.com/Principles_of_Digital_Image_Synthesis_v1.0.1.pdf)<br>[勘误表(errata)](https://www.glassner.com/errata-for-principles-of-digital-image-synthesis/)|
+|<Image src="Resources/图形学数学/Quaternions for Computer Graphics/Image/Image1.jpg">|Quaternions for Computer Graphics||
 
-### Digital Image Processing
+#### Visualizing Quaternions
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Digital Image Processing/Image/Image1.jpg">|Digital Image Processing (3rd Edition) ||
-|<Image src="Resources/Digital Image Processing/Image/Image2.jpg">|Digital Image Processing (4rd Edition) ||
-|<Image src="Resources/Digital Image Processing/Image/CNImage1.jpg">|数字图像处理(第三版) ||
-|<Image src="Resources/Digital Image Processing/Image/Image3.jpg">|数字图像处理（MATLAB版） ||
+|<Image src="Resources/图形学数学/Visualizing Quaternions/Image/Image1.jpg">|Visualizing Quaternions||
 
-### Game Development Tools
+#### Digital Image Processing
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Game Development Tools/Image/Image1.jpg">|Game Development Tools ||
+|<Image src="Resources/图形学数学/Digital Image Processing/Image/Image1.jpg">|Digital Image Processing (3rd Edition) ||
+|<Image src="Resources/图形学数学/Digital Image Processing/Image/Image2.jpg">|Digital Image Processing (4rd Edition) ||
+|<Image src="Resources/图形学数学/Digital Image Processing/Image/CNImage1.jpg">|数字图像处理(第三版) ||
+|<Image src="Resources/图形学数学Digital Image Processing/Image/Image3.jpg">|数字图像处理（MATLAB版） ||
 
-Div, Grad, Curl, and All That
-
-### Div, Grad, Curl, and All That
+### Signals and Systems
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Div, Grad, Curl, and All That/Image/Image1.jpg">|Div, Grad, Curl, and All That<br>  An Informal Text on Vector Calculus  ||
-|<Image src="Resources/Div, Grad, Curl, and All That/Image/Image2.jpg">|散度、旋度、梯度释义（图解版） ||
+|<Image src="Resources/图形学数学/Signals and Systems(Oppenheim)/Image/Image1.jpg">|Signals and Systems ||
+|<Image src="Resources/图形学数学/Signals and Systems(Oppenheim)/Image/Image2.jpg">|信号与系统 ||
 
-### Game Programming Patterns
+#### Essential Mathematics for Games and Interactive Applications
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Game Programming Patterns/Image/Image1.jpg">|Game Programming Patterns ||
-|<Image src="Resources/Game Programming Patterns/Image/Image2.jpg">|游戏编程模式||
+| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications/Image/Image1.jpg">|Essential Mathematics for Games and <br> Interactive Applications|[官方网站(official site)](http://www.essentialmath.com/book.htm) | 
+| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications(2)/Image/Image1.jpg">|Essential Mathematics for Games and <br>Interactive Applications, Second Edition|[官方网站(official site)](http://www.essentialmath.com/book.htm) | 
+| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications(3)/Image/Image1.jpg">|Essential Mathematics for Games and <br>Interactive Applications, Third Edition|[官方网站(official site)](http://www.essentialmath.com/book.htm) <br> [源代码(source code)](https://github.com/jvanverth/essentialmath)| 
 
-### Augmented Reality
+#### Mathematics for Computer Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Augmented Reality/Image/Image1.jpg">|Augmented Reality:Principles and Practice |[部分试读(portion free reading)](https://arbook.icg.tugraz.at/Schmalstieg-2016-AW)<br> [作者网站(author site)](https://arbook.icg.tugraz.at/)|
+|<Image src="Resources/图形学数学/Mathematics for Computer Graphics/Image/Image1.png">|Mathematics for Computer Graphics <br>(Undergraduate Topics in Computer Science)<br> 6th ed. 2022 Edition||
 
-### VR Developer Gems
+#### Principles of Digital Image Synthesis 
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/VR Developer Gems/Image/Image1.jpg">|VR Developer Gems||
+|<Image src="Resources/图形学数学/Principles of Digital Image Synthesis/Image/Image1.jpg">|Principles of Digital Image Synthesis |[免费下载(free download)](http://www.realtimerendering.com/Principles_of_Digital_Image_Synthesis_v1.0.1.pdf)<br>[勘误表(errata)](https://www.glassner.com/errata-for-principles-of-digital-image-synthesis/)|
 
-### Image Objects
+#### Handbook of Digital Image Synthesis
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Image Objects/Image/Image1.jpg">|Image Objects:<br>An Archaeology of Computer Graphics|[发布者网站(Publisher's page)](https://mitpress.mit.edu/9780262045032/)|
+|<Image src="Resources/图形学数学/Handbook of Digital Image Synthesis/Image/Image1.jpg">|Handbook of Digital Image Synthesis |[作者网站(author site)](https://web.archive.org/web/20200407080906/http://www.cs.utah.edu/~vpegorar/research/2016_HODIS/index.shtml)<br>[发布者网站(Publisher's page)](https://www.routledge.com/Handbook-of-Digital-Image-Synthesis-Scientific-Foundations-of-Rendering/Pegoraro/p/book/9781498774246)|
 
-
-### Advanced High Dynamic Range Imaging
+#### Div, Grad, Curl, and All That
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Advanced High Dynamic Range Imaging/Image/Image1.jpg">|Advanced High Dynamic Range Imaging<br>2nd Edition|[发布者网站(Publisher's page))](https://www.routledge.com/Advanced-High-Dynamic-Range-Imaging/Banterle-Artusi-Debattista-Chalmers/p/book/9781498706940)|
+|<Image src="Resources/图形学数学/Div, Grad, Curl, and All That/Image/Image1.jpg">|Div, Grad, Curl, and All That<br>  An Informal Text on Vector Calculus  ||
+|<Image src="Resources/图形学数学/Div, Grad, Curl, and All That/Image/Image2.jpg">|散度、旋度、梯度释义（图解版） ||
 
-### A Biography of the Pixel
+
+### 游戏引擎与游戏编程
+***
+
+#### 3D Game Engine Design
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/A Biography of the Pixel/Image/Image1.jpg">|A Biography of the Pixel|[发布者网站(Publisher's page)](https://mitpress.mit.edu/9780262542456/)|
+|<Image src="Resources/游戏引擎与游戏编程/3D Game Engine Design/Image/Image1.jpg">|3D Game Engine Design|[相关网站(related web site)](https://www.geometrictools.com/)|
 
-
-### Computer Graphics Programming
+#### 3D Game Engine Architecture
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Computer Graphics Programming/Image/Image1.jpg">|Computer Graphics Programming|[发布者网站(Publisher's page)](https://www.merclearning.com/books-technology_computing.html)|
+|<Image src="Resources/游戏引擎与游戏编程/3D Game Engine Architecture/Image/Image1.jpg">|3D Game Engine Architecture <br> Engineering Real-Time Applications with Wild Magic||
 
-
-### GPGPU Programming 
+#### Game Engine Gems
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/GPGPU Programming/Image/Image1.jpg">|GPGPU Programming |[相关代码网站(book's code website)](https://www.geometrictools.com/Books/Books.html)<br>[发布者网站(Publisher's page)](https://www.routledge.com/GPGPU-Programming-for-Games-and-Science/Eberly/p/book/9781466595354)|
+| <Image src="Resources/游戏引擎与游戏编程/Game Engine Gems(1)/Image/Image1.jpg">|Game Engine Gems, Volume One|[官方网站(official site)](https://www.amazon.com/Game-Engine-Gems-Eric-Lengyel/dp/0763778885?tag=realtimerenderin&pldnSite=1)| 
+| <Image src="Resources/游戏引擎与游戏编程/Game Engine Gems(2)/Image/Image1.jpg">|Game Engine Gems 2|[官方网站(official site)](http://www.gameenginegems.net/geg2.php)| 
+| <Image src="Resources/游戏引擎与游戏编程/Game Engine Gems(3)/Image/Image1.jpg">|Game Engine Gems 3|| 
 
-### Computer Facial Animation
+#### Game Engine Architecture
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Computer Facial Animation/Image/Image1.jpg">|Computer Facial Animation ||
+| <Image src="Resources/游戏引擎与游戏编程/Game Engine Architecture(1)/Image/Image1.jpg">|Game Engine Architecture|[官方网站(official site)](https://www.gameenginebook.com/)| 
+| <Image src="Resources/游戏引擎与游戏编程/Game Engine Architecture(2)/Image/Image1.jpg">|Game Engine Architecture, Second Edition|[官方网站(official site)](https://www.gameenginebook.com/)| 
+| <Image src="Resources/游戏引擎与游戏编程/Game Engine Architecture(3)/Image/Image1.jpg">|Game Engine Architecture, Third Edition|[官方网站(official site)](https://www.gameenginebook.com/)| 
 
 
-### Handbook of Digital Image Synthesis
+#### Game Programming Gems
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Handbook of Digital Image Synthesis/Image/Image1.jpg">|Handbook of Digital Image Synthesis |[作者网站(author site)](https://web.archive.org/web/20200407080906/http://www.cs.utah.edu/~vpegorar/research/2016_HODIS/index.shtml)<br>[发布者网站(Publisher's page)](https://www.routledge.com/Handbook-of-Digital-Image-Synthesis-Scientific-Foundations-of-Rendering/Pegoraro/p/book/9781498774246)|
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Gems(1)/Image/Image1.jpg">|Game Programming Gems||
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Gems(2)/Image/Image1.jpg">|Game Programming Gems 2||
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Gems(3)/Image/Image1.jpg">|Game Programming Gems 3||
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Gems(4)/Image/Image1.jpg">|Game Programming Gems 4||
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Gems(5)/Image/Image1.jpg">|Game Programming Gems 5||
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Gems(6)/Image/Image1.jpg">|Game Programming Gems 6||
+|<Image src="Resources/游戏引擎与游戏编程/Best of Game Programming Gems/Image/Image1.jpg">|Best of Game Programming Gems <br>Game Programming Gems 前六本的合集<br>( collection from the first six books in the series)||
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Gems(7)/Image/Image1.jpg">|Game Programming Gems 7| |
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Gems(8)/Image/Image1.jpg">|Game Programming Gems 8||
 
-
-### Image Content Retargeting 
+#### Game AI Pro
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Image Content Retargeting/Image/Image1.jpg">|Image Content Retargeting  |[发布者网站(Publisher's page)](https://www.routledge.com/Image-Content-Retargeting-Maintaining-Color-Tone-and-Spatial-Consistency/Artusi-Banterle-Aydin-Panozzo-Sorkine-Hornung/p/book/9781482249910)|
+|<Image src="Resources/游戏引擎与游戏编程/Game AI Pro/Image/Image1.jpg">|Game AI Pro|[官网(official website )](http://www.gameaipro.com/)|
+|<Image src="Resources/游戏引擎与游戏编程/Game AI Pro/Image/Image2.jpg">|Game AI Pro 2||
+|<Image src="Resources/游戏引擎与游戏编程/Game AI Pro/Image/Image3.jpg">|Game AI Pro 3||
 
 
-### Introduction to Computer Graphics
+#### 3D Engine Design for Virtual Globes
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Introduction to Computer Graphics/Image/Image1.jpg">|Introduction to Computer Graphics :<br> A Practical Learning Approach ||
+|<Image src="Resources/游戏引擎与游戏编程/3D Engine Design for Virtual Globes/Image/Image1.jpg">|3D Engine Design for Virtual Globes|[官网(official website )](http://www.virtualglobebook.com/)<br> [源代码(source code)](https://github.com/virtualglobebook/OpenGlobe)|
 
 
-### Direct3D Rendering Cookbook
+#### Texturing and Modeling
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Direct3D Rendering Cookbook/Image/Image1.jpg">|Direct3D Rendering Cookbook |[发布者网站(Publisher's page)](https://www.packtpub.com/product/direct3d-rendering-cookbook/9781849697101)|
+|<Image src="Resources/游戏引擎与游戏编程/Texturing and Modeling/Image/Image1.jpg">|Texturing and Modeling, Third Edition<br>A Procedural Approach||
 
-### Practical Algorithms for 3D Computer Graphics
+#### Level of Detail for 3D Graphics
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Practical Algorithms for 3D Computer Graphics/Image/Image1.jpg">|Practical Algorithms for 3D Computer Graphics|[相关网站(related web site)](http://openfx.org/index.html)|
+|<Image src="Resources/游戏引擎与游戏编程/Level of Detail for 3D Graphics/Image/Image1.jpg">|Level of Detail for 3D Graphics|[官网(official website )](https://lodbook.com/)|
 
-### Computer Graphics
+
+#### Game Development Tools
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Computer Graphics From Pixels to Programmable Graphics Hardware/Image/Image1.jpg">|Computer Graphics:<br>From Pixels to Programmable <br>Graphics Hardware|[发布者网站(Publisher's page)](https://www.routledge.com/Computer-Graphics-From-Pixels-to-Programmable-Graphics-Hardware/Boreskov-Shikin/p/book/9781439867303)|
+|<Image src="Resources/游戏引擎与游戏编程/Game Development Tools/Image/Image1.jpg">|Game Development Tools ||
 
-
-### The History of Visual Magic in Computers
+#### Game Programming Patterns
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/The History of Visual Magic in Computers/Image/Image1.jpg">|The History of Visual Magic in Computers|[发布者网站(Publisher's page)](https://link.springer.com/book/10.1007/978-1-4471-4932-3)|
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Patterns/Image/Image1.jpg">|Game Programming Patterns ||
+|<Image src="Resources/游戏引擎与游戏编程/Game Programming Patterns/Image/Image2.jpg">|游戏编程模式||
 
 
-### WebGL Programming Guide
+#### Augmented Reality
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/WebGL Programming Guide/Image/Image1.png">|WebGL Programming Guide|[书籍网站(book's website)](https://sites.google.com/site/webglbook/)<br>[部分试读(portion free reading)](https://ptgmedia.pearsoncmg.com/images/9780321902924/samplepages/0321902920.pdf)|
+|<Image src="Resources/游戏引擎与游戏编程/Augmented Reality/Image/Image1.jpg">|Augmented Reality:Principles and Practice |[部分试读(portion free reading)](https://arbook.icg.tugraz.at/Schmalstieg-2016-AW)<br> [作者网站(author site)](https://arbook.icg.tugraz.at/)|
 
 
-### Beginning DirectX 11 Game Programming
+#### VR Developer Gems
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Beginning DirectX 11 Game Programming/Image/Image1.jpg">|Beginning DirectX 11 Game Programming||
+|<Image src="Resources/游戏引擎与游戏编程/VR Developer Gems/Image/Image1.jpg">|VR Developer Gems||
 
-
-### The CUDA Handbook
+#### Image Content Retargeting 
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/The CUDA Handbook/Image/Image1.jpg">|The CUDA Handbook|[源代码(source code)](https://github.com/ArchaeaSoftware/cudahandbook)|
+|<Image src="Resources/游戏引擎与游戏编程/Image Content Retargeting/Image/Image1.jpg">|Image Content Retargeting  |[发布者网站(Publisher's page)](https://www.routledge.com/Image-Content-Retargeting-Maintaining-Color-Tone-and-Spatial-Consistency/Artusi-Banterle-Aydin-Panozzo-Sorkine-Hornung/p/book/9781482249910)|
 
 
-
-### OpenGL Development Cookbook
+#### Color Imaging Fundamentals and Applications
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/OpenGL Development Cookbook/Image/Image1.png">|OpenGL Development Cookbook|[发布者网站(publisher's page)](https://subscription.packtpub.com/search?query=opengl%20development%20cookbook)<br>[源代码(source code)](https://github.com/bagobor/opengl33_dev_cookbook_2013)|
+|<Image src="Resources/游戏引擎与游戏编程/Color Imaging Fundamentals and Applications/Image/Image1.jpg">|Color Imaging: Fundamentals and Applications||
 
 
-### GPU Computing Gems 
+#### Data Structures and Algorithms for Game Developers
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/GPU Computing Gems/Image/Image1.jpg">|GPU Computing Gems Jade Edition||
-|<Image src="Resources/GPU Computing Gems/Image/Image2.jpg">|GPU Computing Gems Emerald Edition||
-
-### 3D Graphics for Game Programming
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/3D Graphics for Game Programming/Image/Image1.png">|3D Graphics for Game Programming|[发布者网站(publisher's page)](https://www.routledge.com/3D-Graphics-for-Game-Programming/Han/p/book/9781439827376)|
+|<Image src="Resources/游戏引擎与游戏编程/Data Structures and Algorithms for Game Developers/Image/Image1.png">|Color Imaging: Fundamentals and Applications||
 
 
-### Light and Skin Interactions
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Light and Skin Interactions/Image/Image1.png">|Light and Skin Interactions||
-
-### Video Game Optimization
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Video Game Optimization/Image/Image1.png">|Video Game Optimization||
 
 
-### Mathematics for Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Mathematics for Computer Graphics/Image/Image1.png">|Mathematics for Computer Graphics <br>(Undergraduate Topics in Computer Science)<br> 6th ed. 2022 Edition||
-
-### An Integrated Introduction to Computer Graphics and Geometric Modeling
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/An Integrated Introduction to Computer Graphics and Geometric Modeling/Image/Image1.jpg">|An Integrated Introduction to Computer<br> Graphics and Geometric Modeling||
-|<Image src="Resources/An Integrated Introduction to Computer Graphics and Geometric Modeling/Image/Image2.jpg">|计算机图形学与几何造型导论||
 
 
-### Digital Modeling of Material Appearance
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Digital Modeling of Material Appearance/Image/Image1.jpg">|Digital Modeling of Material Appearance||
 
 
-### Color Imaging Fundamentals and Applications
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Color Imaging Fundamentals and Applications/Image/Image1.jpg">|Color Imaging: Fundamentals and Applications||
 
 
-### Data Structures and Algorithms for Game Developers
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Data Structures and Algorithms for Game Developers/Image/Image1.png">|Color Imaging: Fundamentals and Applications||
-
-### Geometric Data Structures for Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Geometric Data Structures for Computer Graphics/Image/Image1.jpg">|Geometric Data Structures for <br>Computer Graphics|[发布者网站(publisher's page)](https://www.routledge.com/Geometric-Data-Structures-for-Computer-Graphics/Langetepe-Zachmann/p/book/9781568812359)|
 
 
-### Learn OpenGL
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Learn OpenGL/Image/Image1.jpg">|Learn OpenGL: Learn modern <br>OpenGL graphics programming in a <br>step-by-step fashion|[免费下载(free download)](https://learnopengl.com/book/book_pdf.pdf)<br>[免费阅读(free reading)](https://learnopengl.com/)|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1262,6 +1442,16 @@ Div, Grad, Curl, and All That
 |<Image src="Sites/Image20.png">| [网站地址(website)](https://www.youtube.com/c/TheChernoProject) <br> c++,游戏引擎,openGL教程<br>(c++, Game engine,openGL tutorial)|
 |<Image src="Sites/Image21.png">| [网站地址(website)](https://www.youtube.com/c/SebastianLague/featured) <br> 地形生成,太阳系系统,unity教程<br>(Terrain Generation, Solar System,unity tutorial)|
 |<Image src="Sites/Image22.png">| [网站地址(website)](https://github.com/QianMo/Awesome-Unity-Shader) <br> 浅墨(毛星云)的一些unity shader教程<br>(shader tutorial)|
+|<Image src="Sites/Image23.png">| [网站地址(website)](https://www.geometrictools.com/Books/Books.html) <br>[源代码](https://github.com/davideberly/GeometricTools) <br> 开源的几何引擎 <br>(geometry)| 
+
+## 程序语言
+***
+
+### C++Primer
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/程序语言/C++Primer/Image/Image1.jpg">|C++ Primer 中文版（第 5 版）<br> ISBN:9787121155352||
 
 
 
