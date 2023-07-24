@@ -1,188 +1,180 @@
 # Computer-Graphics-Resources
 
-计算机图形学书籍与网站资源收集.
+计算机图形学书籍与网站资源收集.分类整理中...
 
 Computer graphics books and web resources collection.
 
-## Computer graphics(图形学)
 ***
-- Computer Graphics with OpenGL
-- Fundamentals of Computer Graphics
-- Physically Based Rendering From Theory To Implementation
-- Real-Time Rendering
-- GPU Gems
-- Unity Shader入门精要
-- ShaderX
-- GPU Zen 
-- GPU Pro 360
-- Foundations of Game Engine Development
-- 3D Math Primer for Graphics and Game Development
-- Essential Mathematics for Games and Interactive Applications
-- Jim Blinn's Corner
-- Game Engine Gems
-- Game Engine Architecture
-- Graphics Gems
-- Ray Tracing in One Weekend
-- Game Programming Gems
-- The HDRI Handbook
-- High Dynamic Range Imaging
-- Interactive Computer Graphics: A Top-Down Approach with WebGL
-- Ray Tracing Gems
-- Mathematics for 3D Game Programming and Computer Graphics
-- Real-Time Shadows
-- Advanced Global Illumination
-- Computer Graphics Principles and Practice
-- Computer Graphics Through OpenGL:From Theory to Experiments 
-- Game Physics Engine Development
-- Graphics Shaders
-- OpenGL Insights
-- WebGL Insights
-- OpenGL Programming Guide
-- OpenGL Superbible
-- OpenGL 4 Shading Language Cookbook
-- OpenGL Shading Language
-- Fluid Engine Development
-- Fluid Simulation for Computer Graphics
-- Game Physics Pearls
-- Game Physics
-- Game Physics Cookbook
-- Physics for Game Developers
-- Physics for Game Programmers
-- Physics Modeling for Game Programmers
-- Physics Based Animation
-- Foundations of Physically Based Modeling and Animation
-- Real-Time Collision Detection
-- Introduction To 3D Game Programming With Directx 
-- Practical Rendering and Computation with Direct3D 11
-- Real-Time 3D Rendering with DirectX and HLSL
-- The Art of Fluid Animation
-- Ray Tracing from the Ground Up
-- Character Animation With Direct3D
-- Realtime 3D Character Animation with Visual C++
-- Vulkan Programming Guide
-- Learning Vulkan
-- Vulkan Cookbook
-- GLSL Essentials
-- Computer Animation Algorithms and Techniques
-- The Ray Tracer Challenge
-- Ray Tracing A Tool for All
-- Real Time Volume Graphics
-- Computer Graphics from Scratch
-- 3D Game Engine Design
-- 3D Game Engine Architecture
-- Real Time Cameras
-- Game AI Pro
-- Visualizing Quaternions
-- Quaternions for Computer Graphics
-- 3D Engine Design for Virtual Globes
-- Texturing and Modeling
-- Level of Detail for 3D Graphics
-- Non Photorealistic Rendering
-- Non Photorealistic Computer Graphics
-- The Algorithms and Principles of Non photorealistic Graphics
-- Digital Character Development
-- 3D Graphics Rendering Cookbook
-- Tricks of the 3D Game Programming Gurus Advanced 3D Graphics and Rasterization
-- Principles of Digital Image Synthesis 
-- Digital Image Processing
-- Signals and Systems
-- Game Development Tools
-- Div, Grad, Curl, and All That
-- Game Programming Patterns
-- Augmented Reality
-- VR Developer Gems
-- Image Objects
-- Advanced High Dynamic Range Imaging
-- A Biography of the Pixel
-- Computer Graphics Programming
-- GPGPU Programming 
-- Computer Facial Animation
-- Handbook of Digital Image Synthesis
-- Image Content Retargeting 
-- Introduction to Computer Graphics
-- Practical Algorithms for 3D Computer Graphics
-- Computer Graphics: From Pixels to Programmable Graphics Hardware
-- The History of Visual Magic in Computers
-- WebGL Programming Guide
-- Beginning DirectX 11 Game Programming
-- The CUDA Handbook
-- OpenGL Development Cookbook
-- GPU Computing Gems
-- 3D Graphics for Game Programming
-- Light and Skin Interactions
-- Video Game Optimization
-- Mathematics for Computer Graphics
-- An Integrated Introduction to Computer Graphics and Geometric Modeling
-- Digital Modeling of Material Appearance
-- Color Imaging Fundamentals and Applications
-- Data Structures and Algorithms for Game Developers
-- Geometric Data Structures for Computer Graphics
-- Learn OpenGL - Graphics Programming: Learn modern OpenGL graphics programming in a step-by-step fashion
-- Simulating Humans
-- WebGL Gems
-- Vector Analysis for Computer Graphics
-- Calculus for Computer Graphics
-- Digital Lighting and Rendering
-- Foundations of 3D Computer Graphics
-- Practical Linear Algebra
-- AI Game Engine Programming
-- Artificial Intelligence for Games
-- Behavioral Mathematics for Game AI
-- Cloth Modeling and Animation
-- Virtual Clothing
-- Computer Graphics and Geometric Modeling
-- Designing the User Experience of Game Development Tools
-- Real-Time 3D Graphics with WebGL 2
-- Rotation Transforms for Computer Graphics
-- Matrix Transforms for Computer Games and Animation
-- Mathematical Basics of Motion and Deformation in Computer Graphics
-- Geometric and Discrete Path Planning for Interactive Virtual Worlds
-- Hands-On C++ Game Animation Programming
-- An Introduction to Computational Fluid Dynamics
-- Polygon Mesh Processing
-- Computational Geometry
-- Handbook of Discrete and Computational Geometry
-- Geometric Tools for Computer Graphics
-- Computational Geometry in C
-- Computational Geometry An Introduction (Monographs in Computer Science)
-- Geometric Algebra for Computer Science
-- Isosurfaces
-- Guide to Computational Geometry Processing Foundations Algorithms and Methods
-- Discrete and computational geometry
-- Robust and Error-Free Geometric Computing
-- Implicit Curves and Surfaces
-- Effective Computational Geometry for Curves and Surfaces
-- Nonlinear Computational Geometry
-- Handbook of Computer Aided Geometric Design
-- Computational Geometry on Surfaces
-- Geometry for Computer Graphics
-- Introduction to Computing with Geometry
-- Curves and Surfaces for Computer Graphics
-- Production Volume Rendering
 
-### 图形学理论与原理
+### [Graphics mathematics图形学数学](#GMjump)
 
-### 图形接口
+### [Graphics theory and algorithm图形学理论与算法](#GTAAjump)
 
-### 实时渲染
+### [Graphical interfaces图形接口](#GIjump)
 
-### 光线追踪与离线渲染
+### [Real-time rendering实时渲染](#RTRjump)
 
-### 图形学物理,几何,模拟
+### [Ray tracing and offline rendering光线追踪与离线渲染](#RTAORjump)
 
-### 图形学数学
+### [Graphics Physics, geometry, simulation图形学物理,几何,模拟](#GPGSjump)
 
-### 游戏引擎与游戏编程
+### [Game engines and game programming游戏引擎与游戏编程](#GEAGPjump)
 
-## Programming language(程序语言) 
-- C++Primer
+### [Sites and project网站与项目](#SAPjump)
 
+### [Programming language程序语言](#PLjump)
+
+***
 ## Recommended graphics learning route(图形学学习路线推荐)
 ***
 
 <div align=center><Image src="File/CG.png"></div>
 
-### 图形学理论与原理
+### <span id="GMjump">图形学数学</span>
+
+### 线性代数及其应用
+***
+|  picture   | title  | related resources |
+|  ----  | ----  |----  |
+| <Image src="Resources/图形学数学/线性代数及其应用/Image/Image1.jpg">  | 线性代数及其应用<br>习题有解答手册 | [正课与习题视频讲解](https://www.bilibili.com/video/BV1WX4y1z756) |
+
+### 普林斯顿微积分读本
+***
+|  picture   | title  |
+|  ----  | ----  |
+| <Image src="Resources/图形学数学/普林斯顿微积分读本/Image/Image1.jpg">  | 普林斯顿微积分读本(修订版) |
+
+### 托马斯微积分
+***
+|  picture   | title  |
+|  ----  | ----  |
+| <Image src="Resources/图形学数学/托马斯微积分/Image/Image1.jpg"> | 托马斯微积分 <br>习题有解答手册 |
+
+### 概率导论
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+| <Image src="Resources/图形学数学/概率导论/Image/Image1.jpg">  | Introduction to Probability |[答案](http://www.athenasc.com/probbook.html) |
+| <Image src="Resources/图形学数学/概率导论/Image/Image2.jpg">  | 概率导论 |[答案](http://www.athenasc.com/probbook.html)|
+
+#### Practical Linear Algebra
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Practical Linear Algebra/Image/Image1.jpg">|Practical Linear Algebra||
+|<Image src="Resources/图形学数学/Practical Linear Algebra/Image/Image2.jpg">|Practical Linear Algebra A Geometry <br>Toolbox, Third Edition||
+|<Image src="Resources/图形学数学/Practical Linear Algebra/Image/Image3.png">|Practical Linear Algebra: A Geometry <br>Toolbox (Textbooks in Mathematics)|[发布者网站(publisher's page)](http://www.farinhansford.com/books/pla/)|
+|<Image src="Resources/图形学数学/Practical Linear Algebra/Image/Image4.jpg">|实用线性代数||
+
+#### 3D Math Primer for Graphics and Game Development
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+| <Image src="Resources/图形学数学/3d Math Primer For Graphics and Game Development/Image/Image1.jpg">|3D数学基础|  | 
+| <Image src="Resources/图形学数学/3d Math Primer For Graphics and Game Development/Image/Image2.jpg">|3D数学基础：图形和游戏开发（第2版）|[免费阅读(free reading)](https://www.gamemath.com/book/) | 
+
+#### Mathematics for 3D Game Programming and Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Mathematics for 3D Game Programming and Computer Graphics/Image/Image1.jpg">|Mathematics for 3D Game Programming and<br> Computer Graphics, 3rd Edition | [源代码(source code)](http://www.mathfor3dgameprogramming.com/) |
+|<Image src="Resources/图形学数学/Mathematics for 3D Game Programming and Computer Graphics/Image/Image2.jpg">|3D游戏与计算机图形学中的数学方法 | [源代码(source code)](http://www.mathfor3dgameprogramming.com/) |
+
+
+#### Quaternions for Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Quaternions for Computer Graphics/Image/Image1.jpg">|Quaternions for Computer Graphics||
+
+#### Visualizing Quaternions
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Visualizing Quaternions/Image/Image1.jpg">|Visualizing Quaternions||
+
+#### Digital Image Processing
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Digital Image Processing/Image/Image1.jpg">|Digital Image Processing (3rd Edition) ||
+|<Image src="Resources/图形学数学/Digital Image Processing/Image/Image2.jpg">|Digital Image Processing (4rd Edition) ||
+|<Image src="Resources/图形学数学/Digital Image Processing/Image/CNImage1.jpg">|数字图像处理(第三版) ||
+|<Image src="Resources/图形学数学/Digital Image Processing/Image/Image3.jpg">|数字图像处理（MATLAB版） ||
+
+### Signals and Systems
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Signals and Systems(Oppenheim)/Image/Image1.jpg">|Signals and Systems ||
+|<Image src="Resources/图形学数学/Signals and Systems(Oppenheim)/Image/Image2.jpg">|信号与系统 ||
+
+#### Essential Mathematics for Games and Interactive Applications
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications/Image/Image1.jpg">|Essential Mathematics for Games and <br> Interactive Applications|[官方网站(official site)](http://www.essentialmath.com/book.htm) | 
+| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications(2)/Image/Image1.jpg">|Essential Mathematics for Games and <br>Interactive Applications, Second Edition|[官方网站(official site)](http://www.essentialmath.com/book.htm) | 
+| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications(3)/Image/Image1.jpg">|Essential Mathematics for Games and <br>Interactive Applications, Third Edition|[官方网站(official site)](http://www.essentialmath.com/book.htm) <br> [源代码(source code)](https://github.com/jvanverth/essentialmath)| 
+
+#### Mathematics for Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Mathematics for Computer Graphics/Image/Image1.png">|Mathematics for Computer Graphics <br>(Undergraduate Topics in Computer Science)<br> 6th ed. 2022 Edition||
+
+#### Principles of Digital Image Synthesis 
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Principles of Digital Image Synthesis/Image/Image1.jpg">|Principles of Digital Image Synthesis |[免费下载(free download)](http://www.realtimerendering.com/Principles_of_Digital_Image_Synthesis_v1.0.1.pdf)<br>[勘误表(errata)](https://www.glassner.com/errata-for-principles-of-digital-image-synthesis/)|
+
+#### Handbook of Digital Image Synthesis
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Handbook of Digital Image Synthesis/Image/Image1.jpg">|Handbook of Digital Image Synthesis |[作者网站(author site)](https://web.archive.org/web/20200407080906/http://www.cs.utah.edu/~vpegorar/research/2016_HODIS/index.shtml)<br>[发布者网站(Publisher's page)](https://www.routledge.com/Handbook-of-Digital-Image-Synthesis-Scientific-Foundations-of-Rendering/Pegoraro/p/book/9781498774246)|
+
+#### Div, Grad, Curl, and All That
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Div, Grad, Curl, and All That/Image/Image1.jpg">|Div, Grad, Curl, and All That<br>  An Informal Text on Vector Calculus  ||
+|<Image src="Resources/图形学数学/Div, Grad, Curl, and All That/Image/Image2.jpg">|散度、旋度、梯度释义（图解版） ||
+
+#### Vector Analysis for Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Vector Analysis for Computer Graphics/Image/Image1.png">|Vector Analysis for Computer Graphics 2nd Edition||
+
+#### Calculus for Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Calculus for Computer Graphics/Image/Image1.png">|Calculus for Computer Graphics 3rd ed. 2023 Edition||
+
+#### Rotation Transforms for Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Rotation Transforms for Computer Graphics/Image/Image1.jpg">|Rotation Transforms for Computer Graphics|
+
+
+#### Matrix Transforms for Computer Games and Animation
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Matrix Transforms for Computer Games and Animation/Image/Image1.jpg">|Matrix Transforms for Computer Games <br>and Animation|
+
+
+#### Mathematical Basics of Motion and Deformation in Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学数学/Mathematical Basics of Motion and Deformation in Computer Graphics/Image/Image1.jpg">|Mathematical Basics of Motion and <br>Deformation in Computer Graphics|
+
+### <span id="GTAAjump">图形学理论与算法</span>
 ***
 
 #### Computer Graphics with OpenGL
@@ -253,15 +245,20 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学理论与算法/Practical Algorithms for 3D Computer Graphics/Image/Image1.jpg">|Practical Algorithms for 3D Computer Graphics|[相关网站(related web site)](http://openfx.org/index.html)|
 
-### Computer Graphics From Pixels to Programmable Graphics Hardware
+#### Computer Graphics From Pixels to Programmable Graphics Hardware
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学理论与算法/Computer Graphics From Pixels to Programmable Graphics Hardware/Image/Image1.jpg">|Computer Graphics:<br>From Pixels to Programmable <br>Graphics Hardware|[发布者网站(Publisher's page)](https://www.routledge.com/Computer-Graphics-From-Pixels-to-Programmable-Graphics-Hardware/Boreskov-Shikin/p/book/9781439867303)|
 
+#### Foundations of 3D Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学理论与算法/Foundations of 3D Computer Graphics/Image/Image1.jpg">|Foundations of 3D Computer Graphics||
 
 
-### 图形接口
+### <span id="GIjump">图形接口</span>
 ***
 
 #### Learn OpenGL
@@ -390,7 +387,7 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形接口/GLSL Essentials/Image/Image1.jpg">|GLSL Essentials||
 
-### 实时渲染
+### <span id="RTRjump">实时渲染</span>
 ***
 
 #### Computer Graphics from Scratch
@@ -450,6 +447,12 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 | <Image src="Resources/实时渲染/GPU Zen(1)/Image/Image1.jpg">|GPU Zen <br> Advanced Rendering Techniques| [书籍官网(official website)](https://www.amazon.com/gp/product/B0711SD1DW?tag=realtimerenderin&pldnSite=1) <br> [书籍博客网站(blog)](https://gpuzen.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPUZen)| 
 | <Image src="Resources/实时渲染/GPU Zen(2)/Image/Image1.jpg">|GPU Zen 2 <br> Advanced Rendering Techniques|  [书籍博客网站(blog)](https://gpuzen.blogspot.com/) <br> [源代码(source code)](https://github.com/wolfgangfengel/GPUZen2)| 
+
+#### Production Volume Rendering
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Production Volume Rendering/Image/Image1.jpg">|Production Volume Rendering||
 
 #### GPU Pro 360
 ***
@@ -520,6 +523,15 @@ Computer graphics books and web resources collection.
 | <Image src="Resources/实时渲染/Jim Blinn's Corner(2)/Image/Image1.jpg">|Jim Blinn's Corner <br>Dirty Pixels|[官方网站(official site)](https://www.amazon.com/Jim-Blinns-Corner-Kaufmann-Computer/dp/1558604553?tag=realtimerenderin&pldnSite=1)| 
 | <Image src="Resources/实时渲染/Jim Blinn's Corner(3)/Image/Image1.jpg">|Jim Blinn's Corner <br>Notation, Notation, Notation|[官方网站(official site)](https://www.amazon.com/Jim-Blinns-Corner-Notation-Kaufmann/dp/1558608605?tag=realtimerenderin&pldnSite=1)| 
 
+
+#### Digital Lighting and Rendering
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Digital Lighting and Rendering/Image/Image1.jpg">|Digital Lighting and Rendering||
+|<Image src="Resources/实时渲染/Digital Lighting and Rendering/Image/Image2.jpg">|Digital Lighting and Rendering:2rd Edition||
+|<Image src="Resources/实时渲染/Digital Lighting and Rendering/Image/Image3.jpg">|Digital Lighting and Rendering:3rd Edition||
+
 #### The HDRI Handbook
 ***
 |  picture   | title  |related resources |
@@ -533,12 +545,25 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/实时渲染/3D Graphics for Game Programming/Image/Image1.png">|3D Graphics for Game Programming|[发布者网站(publisher's page)](https://www.routledge.com/3D-Graphics-for-Game-Programming/Han/p/book/9781439827376)|
 
+### WebGL Gems
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/WebGL Gems/Image/Image1.png">|WebGL Gems||
+
 
 #### Light and Skin Interactions
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
 |<Image src="Resources/实时渲染/Light and Skin Interactions/Image/Image1.png">|Light and Skin Interactions||
+
+#### Real-Time 3D Graphics with WebGL 2
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/实时渲染/Real-Time 3D Graphics with WebGL 2/Image/Image1.jpg">|Real-Time 3D Graphics with WebGL 2|[发布者网站(publisher's page)](https://www.packtpub.com/product/real-time-3d-graphics-with-webgl-2-second-edition/9781788629690)|
+
 
 #### Video Game Optimization
 ***
@@ -583,7 +608,7 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/实时渲染/A Biography of the Pixel/Image/Image1.jpg">|A Biography of the Pixel|[发布者网站(Publisher's page)](https://mitpress.mit.edu/9780262542456/)|
 
-### 光线追踪与离线渲染
+### <span id = "RTAORjump">光线追踪与离线渲染</span>
 ***
 #### Ray Tracing in One Weekend
 ***
@@ -632,13 +657,34 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/光线追踪与离线渲染/Advanced Global Illumination/Image/Image1.jpg">|Advanced Global Illumination | 
 
-### 图形学物理,几何,模拟
+### <span id="GPGSjump">图形学物理,几何,模拟</span>
+
+#### Polygon Mesh Processing
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Polygon Mesh Processing/Image/Image1.png">|Polygon Mesh Processing|
+
+#### Computational Geometry
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Computational Geometry/Image/Image1.jpg">|Computational Geometry|
+|<Image src="Resources/Computational Geometry/Image/Image2.jpg">|计算几何|
 
 #### Game Physics Cookbook
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学物理几何模拟/Game Physics Cookbook/Image/Image1.jpg">|Game Physics Cookbook| [源代码(source code)](https://github.com/gszauer/GamePhysicsCookbook)|
+
+
+#### Geometric Tools for Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Geometric Tools for Computer Graphics/Image/Image1.jpg">|Geometric Tools for Computer Graphics||
+|<Image src="Resources/图形学物理几何模拟/Geometric Tools for Computer Graphics/Image/Image2.jpg">|计算机图形学几何工具算法详解|
 
 #### Physics for Game Developers
 ***
@@ -658,6 +704,12 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学物理几何模拟/GPGPU Programming/Image/Image1.jpg">|GPGPU Programming |[相关代码网站(book's code website)](https://www.geometrictools.com/Books/Books.html)<br>[发布者网站(Publisher's page)](https://www.routledge.com/GPGPU-Programming-for-Games-and-Science/Eberly/p/book/9781466595354)|
 
+#### Real-Time Collision Detection
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Real-Time Collision Detection/Image/Image1.jpg">|Real-Time Collision Detection|[官网(official website)](http://realtimecollisiondetection.net/)|
+
 
 #### Foundations of Physically Based Modeling and Animation
 ***
@@ -665,18 +717,28 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学物理几何模拟/Foundations of Physically Based Modeling and Animation/Image/Image1.jpg">|Foundations of Physically Based <br>Modeling and Animation||
 
+#### Handbook of Discrete and Computational Geometry
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Handbook of Discrete and Computational Geometry/Image/Image2.jpg">|Handbook of Discrete and Computational Geometry|
+|<Image src="Resources/图形学物理几何模拟/Handbook of Discrete and Computational Geometry/Image/Image3.jpg">|Handbook of Discrete and Computational Geometry:<br>3rd Edition|
+
+
 #### Character Animation With Direct3D
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学物理几何模拟/Character Animation With Direct3D/Image/Image1.jpg">|Character Animation With Direct3D||
 
-### Computer Animation Algorithms and Techniques
+#### Computer Animation Algorithms and Techniques
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
 |<Image src="Resources/Computer Animation Algorithms and Techniques/Image/Image1.jpg">|Computer Animation Algorithms and Techniques||
 |<Image src="Resources/Computer Animation Algorithms and Techniques/Image/Image2.jpg">|Computer Animation Algorithms and Techniques <br> Second Edition||
+
+
 
 #### Realtime 3D Character Animation with Visual C++
 ***
@@ -684,11 +746,7 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学物理几何模拟/Realtime 3D Character Animation with Visual C++/Image/Image1.jpg">|Realtime 3D Character Animation with Visual C++||
 
-#### Real-Time Collision Detection
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/图形学物理几何模拟/Real-Time Collision Detection/Image/Image1.jpg">|Real-Time Collision Detection|[官网(official website)](http://realtimecollisiondetection.net/)|
+
 
 #### Physics for Game Programmers
 ***
@@ -739,6 +797,81 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学物理几何模拟/The Art of Fluid Animation/Image/Image1.jpg">|The Art of Fluid Animation||
 
+
+#### Computational Geometry in C
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Computational Geometry in C/Image/Image1.jpg">|Computational Geometry in C||
+|<Image src="Resources/图形学物理几何模拟/Computational Geometry in C/Image/Image2.png">|Computational Geometry in C:2nd Edition||
+
+
+#### Computational Geometry An Introduction
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Computational Geometry An Introduction/Image/Image1.jpg">| Computational Geometry: An Introduction||
+
+#### Isosurfaces
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/Isosurfaces/Image/Image1.jpg">| Isosurfaces||
+
+
+#### Guide to Computational Geometry Processing Foundations Algorithms and Methods
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Guide to Computational Geometry Processing Foundations Algorithms and Methods/Image/Image1.jpg">| Guide to Computational Geometry Processing <br> Foundations Algorithms and Methods||
+
+
+#### Discrete and computational geometry
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Discrete and computational geometry/Image/Image1.jpg">| Discrete and computational geometry||
+
+
+#### Robust and Error-Free Geometric Computing
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Robust and Error-Free Geometric Computing/Image/Image1.png">| Robust and Error-Free Geometric Computing|[发布者网站(publisher's page)](https://www.routledge.com/Robust-and-Error-Free-Geometric-Computing/Eberly/p/book/9780367352943)|
+
+#### Implicit Curves and Surfaces
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Implicit Curves and Surfaces/Image/Image1.jpg">| Implicit Curves and Surfaces||
+
+
+#### Effective Computational Geometry for Curves and Surfaces
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Effective Computational Geometry for Curves and Surfaces/Image/Image1.jpg">| Effective Computational Geometry for <br>Curves and Surfaces||
+
+
+#### Nonlinear Computational Geometry
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Nonlinear Computational Geometry/Image/Image1.jpg">| Nonlinear Computational Geometry||
+
+#### Handbook of Computer Aided Geometric Design
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Handbook of Computer Aided Geometric Design/Image/Image1.jpg">| Handbook of Computer Aided <br>Geometric Design||
+
+
+#### Geometric Algebra for Computer Science
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Geometric Algebra for Computer Science/Image/Image1.jpg">| Geometric Algebra for Computer Science||
+
 #### An Integrated Introduction to Computer Graphics and Geometric Modeling
 ***
 |  picture   | title  |related resources |
@@ -751,6 +884,56 @@ Computer graphics books and web resources collection.
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
 |<Image src="Resources/图形学物理几何模拟/Geometric Data Structures for Computer Graphics/Image/Image1.jpg">|Geometric Data Structures for <br>Computer Graphics|[发布者网站(publisher's page)](https://www.routledge.com/Geometric-Data-Structures-for-Computer-Graphics/Langetepe-Zachmann/p/book/9781568812359)|
+
+#### Computational Geometry on Surfaces
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Computational Geometry on Surfaces/Image/Image1.jpg">|  Computational Geometry on Surfaces||
+
+#### Geometry for Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Geometry for Computer Graphics/Image/Image1.jpg">|Geometry for Computer Graphics||
+
+
+#### Introduction to Computing with Geometry
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Introduction to Computing with Geometry/Image/Image1.jpg">|Introduction to Computing with Geometry|[免费阅读(free reading)](http://adrianbowyer.com/inge/docs/icg.pdf)|
+
+
+#### Curves and Surfaces for Computer Graphics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Curves and Surfaces for Computer Graphics/Image/Image1.jpg">|Curves and Surfaces for Computer Graphics||
+
+
+#### Hands-On C++ Game Animation Programming
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Hands-On C++ Game Animation Programming/Image/Image1.jpg">|Hands-On C++ Game Animation Programming|
+
+
+#### An Introduction to Computational Fluid Dynamics
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/An Introduction to Computational Fluid Dynamics/Image/Image1.jpg">|An Introduction to Computational <br>Fluid Dynamics|
+|<Image src="Resources/图形学物理几何模拟/An Introduction to Computational Fluid Dynamics/Image/Image2.png">|An Introduction to Computational <br>Fluid Dynamics|
+
+
+#### Computer Graphics and Geometric Modeling
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/图形学物理几何模拟/Computer Graphics and Geometric Modeling/Image/Image1.jpg">|Computer Graphics and Geometric Modeling||
+|<Image src="Resources/图形学物理几何模拟/Computer Graphics and Geometric Modeling/Image/Image2.jpg">|Computer Graphics and Geometric Modeling:Mathematics (v. 2)||
+
 
 #### Digital Modeling of Material Appearance
 ***
@@ -783,111 +966,34 @@ Computer graphics books and web resources collection.
 |<Image src="Resources/图形学物理几何模拟/GPU Computing Gems/Image/Image1.jpg">|GPU Computing Gems Jade Edition||
 |<Image src="Resources/图形学物理几何模拟/GPU Computing Gems/Image/Image2.jpg">|GPU Computing Gems Emerald Edition||
 
-### 图形学数学
-
-### 线性代数及其应用
-***
-|  picture   | title  | related resources |
-|  ----  | ----  |----  |
-| <Image src="Resources/图形学数学/线性代数及其应用/Image/Image1.jpg">  | 线性代数及其应用 | [正课与习题视频讲解](https://www.bilibili.com/video/BV1WX4y1z756) |
-
-### 普林斯顿微积分读本
-***
-|  picture   | title  |
-|  ----  | ----  |
-| <Image src="Resources/图形学数学/普林斯顿微积分读本/Image/Image1.jpg">  | 普林斯顿微积分读本(修订版) |
-
-### 托马斯微积分
-***
-|  picture   | title  |
-|  ----  | ----  |
-| <Image src="Resources/图形学数学/托马斯微积分/Image/Image1.jpg">  | 托马斯微积分 |
-
-### 概率导论
+#### Simulating Humans
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/图形学数学/概率导论/Image/Image1.jpg">  | Introduction to Probability |[答案](http://www.athenasc.com/probbook.html) |
-| <Image src="Resources/图形学数学/概率导论/Image/Image2.jpg">  | 概率导论 |[答案](http://www.athenasc.com/probbook.html)|
+|<Image src="Resources/图形学物理几何模拟/Simulating Humans/Image/Image1.jpg">|Simulating Humans|[免费阅读(free reading)](https://www.cis.upenn.edu/~badler/book/SimulatingHumans.pdf)|
 
-#### 3D Math Primer for Graphics and Game Development
+#### Cloth Modeling and Animation
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-| <Image src="Resources/图形学数学/3d Math Primer For Graphics and Game Development/Image/Image1.jpg">|3D数学基础|  | 
-| <Image src="Resources/图形学数学/3d Math Primer For Graphics and Game Development/Image/Image2.jpg">|3D数学基础：图形和游戏开发（第2版）|[免费阅读(free reading)](https://www.gamemath.com/book/) | 
+|<Image src="Resources/图形学物理几何模拟/Cloth Modeling and Animation/Image/Image1.png">|Cloth Modeling and Animation||
 
-#### Mathematics for 3D Game Programming and Computer Graphics
+
+#### Virtual Clothing
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Mathematics for 3D Game Programming and Computer Graphics/Image/Image1.jpg">|Mathematics for 3D Game Programming and<br> Computer Graphics, 3rd Edition | [源代码(source code)](http://www.mathfor3dgameprogramming.com/) |
-|<Image src="Resources/图形学数学/Mathematics for 3D Game Programming and Computer Graphics/Image/Image2.jpg">|3D游戏与计算机图形学中的数学方法 | [源代码(source code)](http://www.mathfor3dgameprogramming.com/) |
+|<Image src="Resources/图形学物理几何模拟/Virtual Clothing/Image/Image1.jpg">|Virtual Clothing||
 
-
-#### Quaternions for Computer Graphics
+#### Geometric and Discrete Path Planning for Interactive Virtual Worlds
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Quaternions for Computer Graphics/Image/Image1.jpg">|Quaternions for Computer Graphics||
-
-#### Visualizing Quaternions
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Visualizing Quaternions/Image/Image1.jpg">|Visualizing Quaternions||
-
-#### Digital Image Processing
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Digital Image Processing/Image/Image1.jpg">|Digital Image Processing (3rd Edition) ||
-|<Image src="Resources/图形学数学/Digital Image Processing/Image/Image2.jpg">|Digital Image Processing (4rd Edition) ||
-|<Image src="Resources/图形学数学/Digital Image Processing/Image/CNImage1.jpg">|数字图像处理(第三版) ||
-|<Image src="Resources/图形学数学Digital Image Processing/Image/Image3.jpg">|数字图像处理（MATLAB版） ||
-
-### Signals and Systems
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Signals and Systems(Oppenheim)/Image/Image1.jpg">|Signals and Systems ||
-|<Image src="Resources/图形学数学/Signals and Systems(Oppenheim)/Image/Image2.jpg">|信号与系统 ||
-
-#### Essential Mathematics for Games and Interactive Applications
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications/Image/Image1.jpg">|Essential Mathematics for Games and <br> Interactive Applications|[官方网站(official site)](http://www.essentialmath.com/book.htm) | 
-| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications(2)/Image/Image1.jpg">|Essential Mathematics for Games and <br>Interactive Applications, Second Edition|[官方网站(official site)](http://www.essentialmath.com/book.htm) | 
-| <Image src="Resources/图形学数学/Essential Mathematics for Games and Interactive Applications(3)/Image/Image1.jpg">|Essential Mathematics for Games and <br>Interactive Applications, Third Edition|[官方网站(official site)](http://www.essentialmath.com/book.htm) <br> [源代码(source code)](https://github.com/jvanverth/essentialmath)| 
-
-#### Mathematics for Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Mathematics for Computer Graphics/Image/Image1.png">|Mathematics for Computer Graphics <br>(Undergraduate Topics in Computer Science)<br> 6th ed. 2022 Edition||
-
-#### Principles of Digital Image Synthesis 
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Principles of Digital Image Synthesis/Image/Image1.jpg">|Principles of Digital Image Synthesis |[免费下载(free download)](http://www.realtimerendering.com/Principles_of_Digital_Image_Synthesis_v1.0.1.pdf)<br>[勘误表(errata)](https://www.glassner.com/errata-for-principles-of-digital-image-synthesis/)|
-
-#### Handbook of Digital Image Synthesis
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Handbook of Digital Image Synthesis/Image/Image1.jpg">|Handbook of Digital Image Synthesis |[作者网站(author site)](https://web.archive.org/web/20200407080906/http://www.cs.utah.edu/~vpegorar/research/2016_HODIS/index.shtml)<br>[发布者网站(Publisher's page)](https://www.routledge.com/Handbook-of-Digital-Image-Synthesis-Scientific-Foundations-of-Rendering/Pegoraro/p/book/9781498774246)|
-
-#### Div, Grad, Curl, and All That
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/图形学数学/Div, Grad, Curl, and All That/Image/Image1.jpg">|Div, Grad, Curl, and All That<br>  An Informal Text on Vector Calculus  ||
-|<Image src="Resources/图形学数学/Div, Grad, Curl, and All That/Image/Image2.jpg">|散度、旋度、梯度释义（图解版） ||
+|<Image src="Resources/图形学物理几何模拟/Geometric and Discrete Path Planning for Interactive Virtual Worlds/Image/Image1.jpg">|Geometric and Discrete Path Planning for<br> Interactive Virtual Worlds<br>(互动虚拟世界的几何与离散路径规划)|
 
 
-### 游戏引擎与游戏编程
+
+### <span id="GEAGPjump">游戏引擎与游戏编程</span>
 ***
 
 #### 3D Game Engine Design
@@ -1009,421 +1115,44 @@ Computer graphics books and web resources collection.
 |  ----  | ----  | ----  |
 |<Image src="Resources/游戏引擎与游戏编程/Data Structures and Algorithms for Game Developers/Image/Image1.png">|Color Imaging: Fundamentals and Applications||
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Simulating Humans
+#### AI Game Engine Programming
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Simulating Humans/Image/Image1.jpg">|Simulating Humans|[免费阅读(free reading)](https://www.cis.upenn.edu/~badler/book/SimulatingHumans.pdf)|
+|<Image src="Resources/游戏引擎与游戏编程/AI Game Engine Programming/Image/Image1.jpg">|AI Game Engine Programming||
 
 
-### WebGL Gems
+#### Artificial Intelligence for Games
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/WebGL Gems/Image/Image1.png">|WebGL Gems||
+|<Image src="Resources/游戏引擎与游戏编程/Artificial Intelligence for Games/Image/Image1.jpg">|AI Game Engine Programming||
+|<Image src="Resources/游戏引擎与游戏编程/Artificial Intelligence for Games/Image/Image2.png">|AI for Games, Third Edition 3rd Edition||
 
-
-### Vector Analysis for Computer Graphics
+#### Behavioral Mathematics for Game AI
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Vector Analysis for Computer Graphics/Image/Image1.png">|Vector Analysis for Computer Graphics 2nd Edition||
+|<Image src="Resources/游戏引擎与游戏编程/Behavioral Mathematics for Game AI/Image/Image1.jpg">|Behavioral Mathematics for Game AI||
 
-### Calculus for Computer Graphics
+#### Designing the User Experience of Game Development Tools
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/Calculus for Computer Graphics/Image/Image1.png">|Calculus for Computer Graphics 3rd ed. 2023 Edition||
+|<Image src="Resources/游戏引擎与游戏编程/Designing the User Experience of Game Development Tools/Image/Image1.jpg">|Designing the User Experience of Game<br> Development Tools 1st Edition||
 
 
 
-### Digital Lighting and Rendering
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Digital Lighting and Rendering/Image/Image1.jpg">|Digital Lighting and Rendering||
-|<Image src="Resources/Digital Lighting and Rendering/Image/Image2.jpg">|Digital Lighting and Rendering:2rd Edition||
-|<Image src="Resources/Digital Lighting and Rendering/Image/Image3.jpg">|Digital Lighting and Rendering:3rd Edition||
 
-### Foundations of 3D Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Foundations of 3D Computer Graphics/Image/Image1.jpg">|Foundations of 3D Computer Graphics||
-
-### Practical Linear Algebra
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Practical Linear Algebra/Image/Image1.jpg">|Practical Linear Algebra||
-|<Image src="Resources/Practical Linear Algebra/Image/Image2.jpg">|Practical Linear Algebra A Geometry <br>Toolbox, Third Edition||
-|<Image src="Resources/Practical Linear Algebra/Image/Image3.png">|Practical Linear Algebra: A Geometry <br>Toolbox (Textbooks in Mathematics)|[发布者网站(publisher's page)](http://www.farinhansford.com/books/pla/)|
-|<Image src="Resources/Practical Linear Algebra/Image/Image4.jpg">|实用线性代数||
-
-### AI Game Engine Programming
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/AI Game Engine Programming/Image/Image1.jpg">|AI Game Engine Programming||
-
-
-### Artificial Intelligence for Games
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Artificial Intelligence for Games/Image/Image1.jpg">|AI Game Engine Programming||
-|<Image src="Resources/Artificial Intelligence for Games/Image/Image2.png">|AI for Games, Third Edition 3rd Edition||
-
-### Behavioral Mathematics for Game AI
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Behavioral Mathematics for Game AI/Image/Image1.jpg">|Behavioral Mathematics for Game AI||
-
-### Cloth Modeling and Animation
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Cloth Modeling and Animation/Image/Image1.png">|Cloth Modeling and Animation||
-
-
-### Virtual Clothing
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Virtual Clothing/Image/Image1.jpg">|Virtual Clothing||
-
-
-
-### Computer Graphics and Geometric Modeling
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Computer Graphics and Geometric Modeling/Image/Image1.jpg">|Computer Graphics and Geometric Modeling||
-|<Image src="Resources/Computer Graphics and Geometric Modeling/Image/Image2.jpg">|Computer Graphics and Geometric Modeling:Mathematics (v. 2)||
-
-
-### Designing the User Experience of Game Development Tools
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Designing the User Experience of Game Development Tools/Image/Image1.jpg">|Designing the User Experience of Game<br> Development Tools 1st Edition||
-
-
-### Real-Time 3D Graphics with WebGL 2
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Real-Time 3D Graphics with WebGL 2/Image/Image1.jpg">|Real-Time 3D Graphics with WebGL 2|[发布者网站(publisher's page)](https://www.packtpub.com/product/real-time-3d-graphics-with-webgl-2-second-edition/9781788629690)|
-
-
-### Rotation Transforms for Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Rotation Transforms for Computer Graphics/Image/Image1.jpg">|Rotation Transforms for Computer Graphics|
-
-
-### Matrix Transforms for Computer Games and Animation
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Matrix Transforms for Computer Games and Animation/Image/Image1.jpg">|Matrix Transforms for Computer Games <br>and Animation|
-
-
-### Mathematical Basics of Motion and Deformation in Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Mathematical Basics of Motion and Deformation in Computer Graphics/Image/Image1.jpg">|Mathematical Basics of Motion and <br>Deformation in Computer Graphics|
-
-
-### Geometric and Discrete Path Planning for Interactive Virtual Worlds
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Geometric and Discrete Path Planning for Interactive Virtual Worlds/Image/Image1.jpg">|Geometric and Discrete Path Planning for<br> Interactive Virtual Worlds<br>(互动虚拟世界的几何与离散路径规划)|
-
-### Hands-On C++ Game Animation Programming
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Hands-On C++ Game Animation Programming/Image/Image1.jpg">|Hands-On C++ Game Animation Programming|
-
-
-### An Introduction to Computational Fluid Dynamics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/An Introduction to Computational Fluid Dynamics/Image/Image1.jpg">|An Introduction to Computational <br>Fluid Dynamics|
-|<Image src="Resources/An Introduction to Computational Fluid Dynamics/Image/Image2.png">|An Introduction to Computational <br>Fluid Dynamics|
-
-
-### Polygon Mesh Processing
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Polygon Mesh Processing/Image/Image1.png">|Polygon Mesh Processing|
-
-
-
-### Computational Geometry
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Computational Geometry/Image/Image1.jpg">|Computational Geometry|
-|<Image src="Resources/Computational Geometry/Image/Image2.jpg">|计算几何|
-
-### Handbook of Discrete and Computational Geometry
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Handbook of Discrete and Computational Geometry/Image/Image2.jpg">|Handbook of Discrete and Computational Geometry|
-|<Image src="Resources/Handbook of Discrete and Computational Geometry/Image/Image3.jpg">|Handbook of Discrete and Computational Geometry:<br>3rd Edition|
-
-
-### Geometric Tools for Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Geometric Tools for Computer Graphics/Image/Image1.jpg">|Geometric Tools for Computer Graphics||
-|<Image src="Resources/Geometric Tools for Computer Graphics/Image/Image2.jpg">|计算机图形学几何工具算法详解|
-
-
-### Computational Geometry in C
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Computational Geometry in C/Image/Image1.jpg">|Computational Geometry in C||
-|<Image src="Resources/Computational Geometry in C/Image/Image2.png">|Computational Geometry in C:2nd Edition||
-
-
-### Computational Geometry An Introduction
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Computational Geometry An Introduction/Image/Image1.jpg">| Computational Geometry: An Introduction||
-
-
-### Geometric Algebra for Computer Science
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Geometric Algebra for Computer Science/Image/Image1.jpg">| Geometric Algebra for Computer Science||
-
-### Isosurfaces
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Isosurfaces/Image/Image1.jpg">| Isosurfaces||
-
-
-### Guide to Computational Geometry Processing Foundations Algorithms and Methods
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Guide to Computational Geometry Processing Foundations Algorithms and Methods/Image/Image1.jpg">| Guide to Computational Geometry Processing <br> Foundations Algorithms and Methods||
-
-
-### Discrete and computational geometry
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Discrete and computational geometry/Image/Image1.jpg">| Discrete and computational geometry||
-
-
-### Robust and Error-Free Geometric Computing
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Robust and Error-Free Geometric Computing/Image/Image1.png">| Robust and Error-Free Geometric Computing|[发布者网站(publisher's page)](https://www.routledge.com/Robust-and-Error-Free-Geometric-Computing/Eberly/p/book/9780367352943)|
-
-
-### Implicit Curves and Surfaces
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Implicit Curves and Surfaces/Image/Image1.jpg">| Implicit Curves and Surfaces||
-
-
-### Effective Computational Geometry for Curves and Surfaces
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Effective Computational Geometry for Curves and Surfaces/Image/Image1.jpg">| Effective Computational Geometry for <br>Curves and Surfaces||
-
-
-### Nonlinear Computational Geometry
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Nonlinear Computational Geometry/Image/Image1.jpg">| Nonlinear Computational Geometry||
-
-### Handbook of Computer Aided Geometric Design
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Handbook of Computer Aided Geometric Design/Image/Image1.jpg">| Handbook of Computer Aided <br>Geometric Design||
-
-
-### Computational Geometry on Surfaces
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Computational Geometry on Surfaces/Image/Image1.jpg">|  Computational Geometry on Surfaces||
-
-### Geometry for Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Geometry for Computer Graphics/Image/Image1.jpg">|Geometry for Computer Graphics||
-
-
-### Introduction to Computing with Geometry
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Introduction to Computing with Geometry/Image/Image1.jpg">|Introduction to Computing with Geometry|[免费阅读(free reading)](http://adrianbowyer.com/inge/docs/icg.pdf)|
-
-
-### Curves and Surfaces for Computer Graphics
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Curves and Surfaces for Computer Graphics/Image/Image1.jpg">|Curves and Surfaces for Computer Graphics||
-
-
-### Production Volume Rendering
-***
-|  picture   | title  |related resources |
-|  ----  | ----  | ----  |
-|<Image src="Resources/Production Volume Rendering/Image/Image1.jpg">|Production Volume Rendering||
-
-## Sites and project(网站与项目)
+## <span id="SAPjump">网站与项目</span>
 ***
 
 |  sites   | describe  |
 |  ----  | ----  | 
-|<Image src="Sites/Image8.png">| [网站地址(website)](https://space.bilibili.com/512313464) <br> 计算机图形学与混合现实在线平台 <br>图形学基础,渲染,物理等课程<br>(Graphics Basics, rendering, physics, etc)|
+|<Image src="Sites/Image2.png">| [网站地址(website)](https://www.realtimerendering.com/) <br> Read-TimeRendering 官网有许多图形学的书籍<br>(Read-TimeRendering website)|
 |<Image src="Sites/Image3.png">| [网站地址(website)](https://www.shadertoy.com/) <br> 一个在线编写shader的网站,里面有各种shader的例子<br>(An online shader writing site with examples of various shaders)|
 |<Image src="Sites/Image11.png">| [网站地址(website)](https://iquilezles.org/) <br> IQ(shadertoy创始人)的博客 <br>(Graphics Basics, rendering, physics, etc)|
-|<Image src="Sites/Image2.png">| [网站地址(website)](https://www.realtimerendering.com/) <br> Read-TimeRendering 官网有许多图形学的书籍<br>(Read-TimeRendering website)|
+|<Image src="Sites/Image8.png">| [网站地址(website)](https://space.bilibili.com/512313464) <br> 计算机图形学与混合现实在线平台 <br>图形学基础,渲染,物理等课程<br>(Graphics Basics, rendering, physics, etc)|
 |<Image src="Sites/Image4.png">| [网站地址(website)](https://www.siggraph.org/) <br> 计算机图形学顶级年度会议<br>( an annual conference on computer graphics organized by the ACM SIGGRAPH)|
 |<Image src="Sites/Image1.png">| [网站地址(website)](http://kesen.realtimerendering.com/) <br> Acm siggraph 论文收集(Acm siggraph collection of papers)|
 |<Image src="Sites/Image5.png">| [网站地址(website)](https://gdconf.com/) <br> 电子游戏开发者的年度会议<br>(an annual conference for video game developers)|
@@ -1444,14 +1173,46 @@ Computer graphics books and web resources collection.
 |<Image src="Sites/Image22.png">| [网站地址(website)](https://github.com/QianMo/Awesome-Unity-Shader) <br> 浅墨(毛星云)的一些unity shader教程<br>(shader tutorial)|
 |<Image src="Sites/Image23.png">| [网站地址(website)](https://www.geometrictools.com/Books/Books.html) <br>[源代码](https://github.com/davideberly/GeometricTools) <br> 开源的几何引擎 <br>(geometry)| 
 
-## 程序语言
+## <span id="PLjump">程序语言</span>
 ***
 
-### C++Primer
+#### C#6.0本质论
 ***
 |  picture   | title  |related resources |
 |  ----  | ----  | ----  |
-|<Image src="Resources/程序语言/C++Primer/Image/Image1.jpg">|C++ Primer 中文版（第 5 版）<br> ISBN:9787121155352||
+|<Image src="Resources/程序语言/本质论/Image/Image1.jpg">|C#6.0本质论||
+
+
+#### 深入理解C#
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/程序语言/深入理解CSharp/Image/Image1.jpg">|深入理解C#||
+
+
+#### CLR via C#
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/程序语言/CLR via CSharp/Image/Image1.jpg">|CLR via CSharp||
+
+#### C++Primer
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/程序语言/C++Primer/Image/Image1.jpg">|C++ Primer 中文版（第 5 版）||
+
+#### EffectiveC++
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/程序语言/EffectiveC++/Image/Image1.jpg">|EffectiveC++||
+
+#### MoreEffectiveC++
+***
+|  picture   | title  |related resources |
+|  ----  | ----  | ----  |
+|<Image src="Resources/程序语言/MoreEffectiveC++/Image/Image1.jpg">|MoreEffectiveC++||
 
 
 
